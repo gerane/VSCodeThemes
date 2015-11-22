@@ -1,0 +1,28 @@
+{
+	"name": "Theme-monokai-inverse",
+	"displayName": "monokai-inverse Theme",
+	"description": "monokai-inverse Theme ported from the monokai-inverse TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-monokai-inverse/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "monokai-inverse",
+				"uiTheme": "vs-dark",
+				"path": "./themes/monokai-inverse.tmTheme"
+			}
+		]
+	}
+}

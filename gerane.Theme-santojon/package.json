@@ -1,0 +1,28 @@
+{
+	"name": "Theme-santojon",
+	"displayName": "santojon Theme",
+	"description": "santojon Theme ported from the santojon TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-santojon/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "santojon",
+				"uiTheme": "vs-dark",
+				"path": "./themes/santojon.tmTheme"
+			}
+		]
+	}
+}

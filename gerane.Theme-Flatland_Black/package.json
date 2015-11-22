@@ -1,0 +1,28 @@
+{
+	"name": "Theme-FlatlandBlack",
+	"displayName": "FlatlandBlack Theme",
+	"description": "FlatlandBlack Theme ported from the FlatlandBlack TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-FlatlandBlack/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "FlatlandBlack",
+				"uiTheme": "vs-dark",
+				"path": "./themes/FlatlandBlack.tmTheme"
+			}
+		]
+	}
+}

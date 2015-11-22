@@ -1,0 +1,28 @@
+{
+	"name": "Theme-Gedit",
+	"displayName": "Gedit Theme",
+	"description": "Gedit Theme ported from the Gedit TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Gedit/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "Gedit",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Gedit.tmTheme"
+			}
+		]
+	}
+}

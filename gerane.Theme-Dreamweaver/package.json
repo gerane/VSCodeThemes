@@ -1,0 +1,28 @@
+{
+	"name": "Theme-Dreamweaver",
+	"displayName": "Dreamweaver Theme",
+	"description": "Dreamweaver Theme ported from the Dreamweaver TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Dreamweaver/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dreamweaver",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Dreamweaver.tmTheme"
+			}
+		]
+	}
+}

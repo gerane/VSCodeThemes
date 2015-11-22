@@ -1,0 +1,28 @@
+{
+	"name": "Theme-Lava",
+	"displayName": "Lava Theme",
+	"description": "Lava Theme ported from the Lava TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Lava/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "Lava",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Lava.tmTheme"
+			}
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"name": "Theme-CandyLand",
+	"displayName": "CandyLand Theme",
+	"description": "CandyLand Theme ported from the CandyLand TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-CandyLand/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "CandyLand",
+				"uiTheme": "vs-dark",
+				"path": "./themes/CandyLand.tmTheme"
+			}
+		]
+	}
+}

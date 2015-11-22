@@ -1,0 +1,28 @@
+{
+	"name": "Theme-Kimbiedark",
+	"displayName": "Kimbiedark Theme",
+	"description": "Kimbiedark Theme ported from the Kimbiedark TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Kimbiedark/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "Kimbiedark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Kimbiedark.tmTheme"
+			}
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"name": "Theme-LastRoomLight",
+	"displayName": "LastRoomLight Theme",
+	"description": "LastRoomLight Theme ported from the LastRoomLight TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-LastRoomLight/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "LastRoomLight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/LastRoomLight.tmTheme"
+			}
+		]
+	}
+}

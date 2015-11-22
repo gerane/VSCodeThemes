@@ -1,0 +1,28 @@
+{
+	"name": "Theme-TomorrowNight",
+	"displayName": "TomorrowNight Theme",
+	"description": "TomorrowNight Theme ported from the TomorrowNight TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-TomorrowNight/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "TomorrowNight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/TomorrowNight.tmTheme"
+			}
+		]
+	}
+}

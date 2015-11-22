@@ -1,0 +1,28 @@
+{
+	"name": "Theme-VibrantInk",
+	"displayName": "VibrantInk Theme",
+	"description": "VibrantInk Theme ported from the VibrantInk TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-VibrantInk/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "VibrantInk",
+				"uiTheme": "vs-dark",
+				"path": "./themes/VibrantInk.tmTheme"
+			}
+		]
+	}
+}

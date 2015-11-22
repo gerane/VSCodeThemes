@@ -1,0 +1,28 @@
+{
+	"name": "Theme-Solarized-dark",
+	"displayName": "Solarized-dark Theme",
+	"description": "Solarized-dark Theme ported from the Solarized-dark TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Solarized-dark/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "Solarized-dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Solarized-dark.tmTheme"
+			}
+		]
+	}
+}

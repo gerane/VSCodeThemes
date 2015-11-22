@@ -1,0 +1,28 @@
+{
+	"name": "Theme-Chelevra",
+	"displayName": "Chelevra Theme",
+	"description": "Chelevra Theme ported from the Chelevra TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Chelevra/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "Chelevra",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Chelevra.tmTheme"
+			}
+		]
+	}
+}

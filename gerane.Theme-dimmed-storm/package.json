@@ -1,0 +1,28 @@
+{
+	"name": "Theme-dimmed-storm",
+	"displayName": "dimmed-storm Theme",
+	"description": "dimmed-storm Theme ported from the dimmed-storm TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-dimmed-storm/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "dimmed-storm",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dimmed-storm.tmTheme"
+			}
+		]
+	}
+}

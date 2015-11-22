@@ -1,0 +1,28 @@
+{
+	"name": "Theme-Frontier",
+	"displayName": "Frontier Theme",
+	"description": "Frontier Theme ported from the Frontier TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Frontier/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "Frontier",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Frontier.tmTheme"
+			}
+		]
+	}
+}

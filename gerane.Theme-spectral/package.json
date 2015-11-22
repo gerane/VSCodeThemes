@@ -1,0 +1,28 @@
+{
+	"name": "Theme-spectral",
+	"displayName": "spectral Theme",
+	"description": "spectral Theme ported from the spectral TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-spectral/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "spectral",
+				"uiTheme": "vs-dark",
+				"path": "./themes/spectral.tmTheme"
+			}
+		]
+	}
+}

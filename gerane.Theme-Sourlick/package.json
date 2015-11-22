@@ -1,0 +1,28 @@
+{
+	"name": "Theme-Sourlick",
+	"displayName": "Sourlick Theme",
+	"description": "Sourlick Theme ported from the Sourlick TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Sourlick/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "Sourlick",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Sourlick.tmTheme"
+			}
+		]
+	}
+}

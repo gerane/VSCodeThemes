@@ -1,0 +1,28 @@
+{
+	"name": "Theme-SlushandPoppies",
+	"displayName": "SlushandPoppies Theme",
+	"description": "SlushandPoppies Theme ported from the SlushandPoppies TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-SlushandPoppies/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "SlushandPoppies",
+				"uiTheme": "vs-dark",
+				"path": "./themes/SlushandPoppies.tmTheme"
+			}
+		]
+	}
+}

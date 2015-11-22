@@ -1,0 +1,28 @@
+{
+	"name": "Theme-Brunette",
+	"displayName": "Brunette Theme",
+	"description": "Brunette Theme ported from the Brunette TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Brunette/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "Brunette",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Brunette.tmTheme"
+			}
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"name": "Theme-SpaceRave",
+	"displayName": "SpaceRave Theme",
+	"description": "SpaceRave Theme ported from the SpaceRave TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-SpaceRave/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "SpaceRave",
+				"uiTheme": "vs-dark",
+				"path": "./themes/SpaceRave.tmTheme"
+			}
+		]
+	}
+}

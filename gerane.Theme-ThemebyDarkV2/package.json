@@ -1,0 +1,28 @@
+{
+	"name": "Theme-ThemebyDarkV2",
+	"displayName": "ThemebyDarkV2 Theme",
+	"description": "ThemebyDarkV2 Theme ported from the ThemebyDarkV2 TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-ThemebyDarkV2/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "ThemebyDarkV2",
+				"uiTheme": "vs-dark",
+				"path": "./themes/ThemebyDarkV2.tmTheme"
+			}
+		]
+	}
+}

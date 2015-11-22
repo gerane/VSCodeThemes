@@ -1,0 +1,28 @@
+{
+	"name": "Theme-NaturalContrast",
+	"displayName": "NaturalContrast Theme",
+	"description": "NaturalContrast Theme ported from the NaturalContrast TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-NaturalContrast/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "NaturalContrast",
+				"uiTheme": "vs-dark",
+				"path": "./themes/NaturalContrast.tmTheme"
+			}
+		]
+	}
+}

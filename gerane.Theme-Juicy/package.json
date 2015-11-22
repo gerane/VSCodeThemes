@@ -1,0 +1,28 @@
+{
+	"name": "Theme-Juicy",
+	"displayName": "Juicy Theme",
+	"description": "Juicy Theme ported from the Juicy TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Juicy/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "Juicy",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Juicy.tmTheme"
+			}
+		]
+	}
+}

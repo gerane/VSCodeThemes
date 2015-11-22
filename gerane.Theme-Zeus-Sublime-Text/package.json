@@ -1,0 +1,28 @@
+{
+	"name": "Theme-Zeus-Sublime-Text",
+	"displayName": "Zeus-Sublime-Text Theme",
+	"description": "Zeus-Sublime-Text Theme ported from the Zeus-Sublime-Text TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Zeus-Sublime-Text/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "Zeus-Sublime-Text",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Zeus-Sublime-Text.tmTheme"
+			}
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"name": "Theme-CloudsMidnight",
+	"displayName": "CloudsMidnight Theme",
+	"description": "CloudsMidnight Theme ported from the CloudsMidnight TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-CloudsMidnight/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "CloudsMidnight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/CloudsMidnight.tmTheme"
+			}
+		]
+	}
+}

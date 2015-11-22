@@ -1,0 +1,28 @@
+{
+	"name": "Theme-dimmed-night",
+	"displayName": "dimmed-night Theme",
+	"description": "dimmed-night Theme ported from the dimmed-night TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-dimmed-night/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "dimmed-night",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dimmed-night.tmTheme"
+			}
+		]
+	}
+}

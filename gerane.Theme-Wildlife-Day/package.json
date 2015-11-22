@@ -1,0 +1,28 @@
+{
+	"name": "Theme-Wildlife-Day",
+	"displayName": "Wildlife-Day Theme",
+	"description": "Wildlife-Day Theme ported from the Wildlife-Day TextMate Theme",
+	"version": "0.0.1",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.svg",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Wildlife-Day/README.md",
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/gerane/VSCodeThemes.git"
+    },
+	"contributes": {
+		"themes": [
+			{
+				"label": "Wildlife-Day",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Wildlife-Day.tmTheme"
+			}
+		]
+	}
+}
