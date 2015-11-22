@@ -1,4 +1,4 @@
-﻿$dirThemes = (gci 'C:\Users\Admin\documents\github\VSCodeThemes' -Directory -Filter 'gerane*').FullName
+﻿$dirThemes = (gci "$env:USERPROFILE\documents\github\VSCodeThemes" -Directory -Filter 'gerane*').FullName
 
 
 foreach ($theme in $dirThemes)
