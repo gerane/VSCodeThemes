@@ -605,6 +605,32 @@
                 <string>#268bd2</string>
             </dict>
         </dict>
+        <dict>
+            <key>name</key>
+            <string>Storage type (var, const, let keywords)</string>
+            <key>scope</key>
+            <string>storage.type.ts, storage.type.js, storage.type.tsx</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Operators (new keyword)</string>
+            <key>scope</key>
+            <string>keyword.operator</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict>
     </array>
     <key>uuid</key>
     <string>859E1218-E415-4CFB-9FD9-BF14CC024667</string>
