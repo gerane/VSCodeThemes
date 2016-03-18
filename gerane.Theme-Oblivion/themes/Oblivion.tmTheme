@@ -123,7 +123,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string></string>
+                <string>bold</string>
                 <key>foreground</key>
                 <string>#FFFFFF</string>
             </dict>
