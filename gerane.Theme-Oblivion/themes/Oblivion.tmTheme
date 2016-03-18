@@ -613,7 +613,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>bold</string>
+                <string>italic</string>
                 <key>foreground</key>
                 <string>#FFFFFF</string>
             </dict>
