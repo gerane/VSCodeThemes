@@ -20,7 +20,7 @@
 		"themes": [
 			{
 				"label": "Dawn",
-				"uiTheme": "vs-dark",
+				"uiTheme": "vs",
 				"path": "./themes/Dawn.tmTheme"
 			}
 		]
