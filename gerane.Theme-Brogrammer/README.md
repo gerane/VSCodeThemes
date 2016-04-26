@@ -4,7 +4,7 @@ A theme based on the [Brogrammer TextMate Theme](http://colorsublime.com/theme/B
 
 
 ## Screenshot
-![](https://raw.githubusercontent.com/gerane/VSCodeThemes/master/gerane.Theme-Brogrammer/screenshot.PNG).
+![](https://raw.githubusercontent.com/gerane/VSCodeThemes/master/gerane.Theme-Brogrammer/screenshot.png).
 
 
 ## More Information

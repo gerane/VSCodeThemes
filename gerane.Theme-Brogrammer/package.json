@@ -2,7 +2,7 @@
 	"name": "Theme-Brogrammer",
 	"displayName": "Brogrammer Theme",
 	"description": "Brogrammer Theme ported from the Brogrammer TextMate Theme",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
