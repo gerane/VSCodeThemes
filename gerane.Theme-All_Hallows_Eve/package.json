@@ -1,8 +1,8 @@
 {
 	"name": "Theme-AllHallowsEve",
-	"displayName": "AllHallowsEve Theme",
-	"description": "AllHallowsEve Theme ported from the AllHallowsEve TextMate Theme",
-	"version": "0.0.2",
+	"displayName": "All_Hallows_Eve Theme",
+	"description": "All_Hallows_Eve Theme ported from the AllHallowsEve TextMate Theme",
+	"version": "0.0.3",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -11,7 +11,7 @@
 		"Themes"
 	],
 	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-AllHallowsEve/README.md",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-All_Hallows_Eve/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
