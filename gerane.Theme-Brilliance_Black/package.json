@@ -1,8 +1,8 @@
 {
-	"name": "Theme-BrillianceBlack",
+	"name": "Theme-Brilliance_Black",
 	"displayName": "Brilliance_Black Theme",
 	"description": "Brilliance_Black Theme ported from the BrillianceBlack TextMate Theme",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
