@@ -8,5 +8,5 @@ A theme based on the [Brilliance_Black TextMate Theme](http://colorsublime.com/t
 
 
 ## More Information
-* [Visual Studio Marketplace](https://marketplace.visualstudio.com/items/gerane.Theme-Brilliance_Black).
+* [Visual Studio Marketplace](https://marketplace.visualstudio.com/items/gerane.Theme-BrillianceBlack).
 * [GitHub repository](https://github.com/gerane/VSCodeThemes).
