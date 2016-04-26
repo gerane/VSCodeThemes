@@ -4,7 +4,7 @@ A theme based on the [BoxUK TextMate Theme](http://colorsublime.com/theme/BoxUK)
 
 
 ## Screenshot
-![](https://raw.githubusercontent.com/gerane/VSCodeThemes/master/gerane.Theme-BoxUK/screenshot.PNG).
+![](https://raw.githubusercontent.com/gerane/VSCodeThemes/master/gerane.Theme-BoxUK/screenshot.png).
 
 
 ## More Information
