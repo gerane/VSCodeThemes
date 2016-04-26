@@ -1,8 +1,8 @@
 {
 	"name": "Theme-BetterJS",
-	"displayName": "BetterJS Theme",
-	"description": "BetterJS Theme ported from the BetterJS TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "Better_JS Theme",
+	"description": "Better_JS Theme ported from the Better_JS TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-BetterJS/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Better_JS/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -21,7 +21,7 @@
 			{
 				"label": "BetterJS",
 				"uiTheme": "vs-dark",
-				"path": "./themes/BetterJS.tmTheme"
+				"path": "./themes/Better_JS.tmTheme"
 			}
 		]
 	}
