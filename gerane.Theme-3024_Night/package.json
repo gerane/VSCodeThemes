@@ -2,7 +2,7 @@
 	"name": "Theme-3024Night",
 	"displayName": "3024Night Theme",
 	"description": "3024Night Theme ported from the 3024Night TextMate Theme",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -21,7 +21,7 @@
 			{
 				"label": "3024Night",
 				"uiTheme": "vs-dark",
-				"path": "./themes/3024Night.tmTheme"
+				"path": "./themes/3024_Night.tmTheme"
 			}
 		]
 	}

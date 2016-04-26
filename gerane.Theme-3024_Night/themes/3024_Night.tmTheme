@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-
-	Name:		3024 night
-    Author:		Jan T. Sott
-    License:	Public Domain Mark 1.0
-    URL:		https://github.com/idleberg/3024.tmTheme
-
-    Base16 template for TextMate by Chris Kempson (https://github.com/chriskempson)
-
--->
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Jan T. Sott</string>
+	<string>Jan T. Sott (http://github.com/idleberg)</string>
 	<key>name</key>
-	<string>3024 night</string>
-	<key>comment</key>
-	<string>https://github.com/idleberg/3024.tmTheme</string>
+	<string>Base16 3024 Dark</string>
 	<key>semanticClass</key>
-	<string>theme.dark.3024</string>
+	<string>base16.3024.dark</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>gutterSettings</key>
@@ -49,7 +37,7 @@
 				<key>invisibles</key>
 				<string>#5c5855</string>
 				<key>lineHighlight</key>
-				<string>#3a3432</string>
+				<string>#5c585555</string>
 				<key>selection</key>
 				<string>#4a4543</string>
 			</dict>
@@ -113,7 +101,7 @@
 			<key>name</key>
 			<string>Keywords</string>
 			<key>scope</key>
-			<string>keyword, keyword.control</string>
+			<string>keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -146,11 +134,22 @@
 			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
-			<string>meta.class, support.class, entity.name.class, entity.name.type.class</string>
+			<string>support.class, entity.name.class, entity.name.type.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#fded02</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Classes</string>
+			<key>scope</key>
+			<string>meta.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f7f7f7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -361,7 +360,7 @@
 			<key>name</key>
 			<string>Link Text</string>
 			<key>scope</key>
-			<string>string.other.link</string>
+      <string>string.other.link, punctuation.definition.string.end.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -493,7 +492,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Invalid</string>
+			<string>Illegal</string>
 			<key>scope</key>
 			<string>invalid.illegal</string>
 			<key>settings</key>
@@ -501,11 +500,50 @@
 				<key>background</key>
 				<string>#db2d20</string>
 				<key>foreground</key>
+				<string>#f7f7f7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Broken</string>
+			<key>scope</key>
+			<string>invalid.broken</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#e8bbd0</string>
+				<key>foreground</key>
 				<string>#090300</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#cdab53</string>
+				<key>foreground</key>
+				<string>#f7f7f7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Unimplemented</string>
+			<key>scope</key>
+			<string>invalid.unimplemented</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#5c5855</string>
+				<key>foreground</key>
+				<string>#f7f7f7</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>027d1bbe-f937-4921-8711-fa6d8d41f452</string>
+	<string>4323f3bf-ebf9-4b88-818b-b96360581008</string>
 </dict>
 </plist>
