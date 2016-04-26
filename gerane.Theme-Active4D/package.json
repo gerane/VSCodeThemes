@@ -2,7 +2,7 @@
 	"name": "Theme-Active4D",
 	"displayName": "Active4D Theme",
 	"description": "Active4D Theme ported from the Active4D TextMate Theme",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,7 +10,7 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
+	"icon": "icon.PNG",
 	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Active4D/README.md",
 	"repository": {
         "type": "git",
@@ -20,7 +20,7 @@
 		"themes": [
 			{
 				"label": "Active4D",
-				"uiTheme": "vs-dark",
+				"uiTheme": "vs",
 				"path": "./themes/Active4D.tmTheme"
 			}
 		]
