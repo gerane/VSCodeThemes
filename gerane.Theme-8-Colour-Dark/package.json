@@ -2,7 +2,7 @@
 	"name": "Theme-8-Colour-Dark",
 	"displayName": "8-Colour-Dark Theme",
 	"description": "8-Colour-Dark Theme ported from the 8-Colour-Dark TextMate Theme",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,7 +10,7 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
+	"icon": "icon.png",
 	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-8-Colour-Dark/README.md",
 	"repository": {
         "type": "git",
