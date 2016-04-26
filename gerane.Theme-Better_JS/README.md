@@ -8,5 +8,5 @@ A theme based on the [Better_JS TextMate Theme](http://colorsublime.com/theme/Be
 
 
 ## More Information
-* [Visual Studio Marketplace](https://marketplace.visualstudio.com/items/gerane.Theme-Better_JS).
+* [Visual Studio Marketplace](https://marketplace.visualstudio.com/items/gerane.Theme-BetterJS).
 * [GitHub repository](https://github.com/gerane/VSCodeThemes).
