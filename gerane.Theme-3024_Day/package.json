@@ -4,6 +4,10 @@
 	"description": "3024Day Theme ported from the 3024Day TextMate Theme",
 	"version": "0.0.2",
 	"publisher": "gerane",
+    "galleryBanner": {
+        "color": "#01a0e4",
+        "theme": "dark"
+    },
 	"engines": {
 		"vscode": "^0.10.1"
 	},
