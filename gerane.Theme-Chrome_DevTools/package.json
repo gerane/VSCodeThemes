@@ -1,8 +1,8 @@
 {
 	"name": "Theme-ChromeDevTools",
-	"displayName": "ChromeDevTools Theme",
-	"description": "ChromeDevTools Theme ported from the ChromeDevTools TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "Chrome_DevTools Theme",
+	"description": "Chrome_DevTools Theme ported from the ChromeDevTools TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-ChromeDevTools/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Chrome_DevTools/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "ChromeDevTools",
-				"uiTheme": "vs-dark",
-				"path": "./themes/ChromeDevTools.tmTheme"
+				"label": "Chrome_DevTools",
+				"uiTheme": "vs",
+				"path": "./themes/Chrome_DevTools.tmTheme"
 			}
 		]
 	}
