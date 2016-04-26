@@ -22,11 +22,11 @@
 				<key>invisibles</key>
 				<string>#3B3A32</string>
 				<key>lineHighlight</key>
-				<string>#ccc</string>
+				<string>#404040</string>
 				<key>selection</key>
 				<string>#218A26</string>
 				<key>selectionBorder</key>
-				<string>#000</string>
+				<string>#000000</string>
 				<key>findHighlight</key>
 				<string>#ffff00</string>
 
