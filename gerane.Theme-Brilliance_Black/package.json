@@ -1,8 +1,8 @@
 {
-	"name": "Theme-BrillianceBlack",
-	"displayName": "BrillianceBlack Theme",
-	"description": "BrillianceBlack Theme ported from the BrillianceBlack TextMate Theme",
-	"version": "0.0.1",
+	"name": "Theme-Brilliance_Black",
+	"displayName": "Brilliance_Black Theme",
+	"description": "Brilliance_Black Theme ported from the BrillianceBlack TextMate Theme",
+	"version": "0.0.3",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-BrillianceBlack/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Brilliance_Black/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "BrillianceBlack",
+				"label": "Brilliance_Black",
 				"uiTheme": "vs-dark",
-				"path": "./themes/BrillianceBlack.tmTheme"
+				"path": "./themes/Brilliance_Black.tmTheme"
 			}
 		]
 	}
