@@ -4,7 +4,7 @@ A theme based on the [Brunette TextMate Theme](http://colorsublime.com/theme/Bru
 
 
 ## Screenshot
-![](https://raw.githubusercontent.com/gerane/VSCodeThemes/master/gerane.Theme-Brunette/screenshot.PNG).
+![](https://raw.githubusercontent.com/gerane/VSCodeThemes/master/gerane.Theme-Brunette/screenshot.png).
 
 
 ## More Information
