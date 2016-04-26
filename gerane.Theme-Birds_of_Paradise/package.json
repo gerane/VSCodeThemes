@@ -1,8 +1,8 @@
 {
 	"name": "Theme-BirdsofParadise",
-	"displayName": "BirdsofParadise Theme",
-	"description": "BirdsofParadise Theme ported from the BirdsofParadise TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "Birds_of_Paradise Theme",
+	"description": "Birds_of_Paradise Theme ported from the BirdsofParadise TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-BirdsofParadise/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Birds_of_Paradise/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -21,7 +21,7 @@
 			{
 				"label": "BirdsofParadise",
 				"uiTheme": "vs-dark",
-				"path": "./themes/BirdsofParadise.tmTheme"
+				"path": "./themes/Birds_of_Paradise.tmTheme"
 			}
 		]
 	}
