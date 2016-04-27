@@ -8,5 +8,5 @@ A theme based on the [Clouds_Midnight TextMate Theme](http://colorsublime.com/th
 
 
 ## More Information
-* [Visual Studio Marketplace](https://marketplace.visualstudio.com/items/gerane.Theme-Clouds_Midnight).
+* [Visual Studio Marketplace](https://marketplace.visualstudio.com/items/gerane.Theme-CloudsMidnight).
 * [GitHub repository](https://github.com/gerane/VSCodeThemes).
