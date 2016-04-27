@@ -1,8 +1,8 @@
 {
 	"name": "Theme-TomorrowNightBlue",
-	"displayName": "TomorrowNightBlue Theme",
-	"description": "TomorrowNightBlue Theme ported from the TomorrowNightBlue TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "Tomorrow_Night_Blue Theme",
+	"description": "Tomorrow_Night_Blue Theme ported from the TomorrowNightBlue TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-TomorrowNightBlue/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Tomorrow_Night_Blue/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "TomorrowNightBlue",
+				"label": "Tomorrow_Night_Blue",
 				"uiTheme": "vs-dark",
-				"path": "./themes/TomorrowNightBlue.tmTheme"
+				"path": "./themes/Tomorrow_Night_Blue.tmTheme"
 			}
 		]
 	}
