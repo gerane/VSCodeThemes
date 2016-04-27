@@ -25,9 +25,9 @@ Light version of Tricolor
                 <key>background</key>
                 <string>#f8f8f8</string>
                 <key>caret</key>
-                <string>#CCC</string>
+                <string>#1e1e1d</string>
                 <key>foreground</key>
-                <string>#444</string>
+                <string>#4c4c4c</string>
                 <key>lineHighlight</key>
                 <string>#9ab359</string>
 
@@ -39,7 +39,7 @@ Light version of Tricolor
                 <key>gutter</key>
                 <string>#f8f8f8</string>
                 <key>gutterForeground</key>
-                <string>#555</string>
+                <string>#5d5d5d</string>
 
                 <key>findHighlight</key>
                 <string>#e66800</string>
@@ -56,7 +56,7 @@ Light version of Tricolor
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#888</string>
+                <string>#8f8f8f</string>
             </dict>
         </dict>
 
@@ -97,7 +97,7 @@ Light version of Tricolor
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#000</string>
+                <string>#000000</string>
             </dict>
         </dict>
 
