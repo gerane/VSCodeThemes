@@ -1,8 +1,8 @@
 {
 	"name": "Theme-deepbluesee",
-	"displayName": "deepbluesee Theme",
-	"description": "deepbluesee Theme ported from the deepbluesee TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "deep_blue_see Theme",
+	"description": "deep_blue_see Theme ported from the deepbluesee TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-deepbluesee/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-deep_blue_see/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "deepbluesee",
+				"label": "deep_blue_see",
 				"uiTheme": "vs-dark",
-				"path": "./themes/deepbluesee.tmTheme"
+				"path": "./themes/deep_blue_see.tmTheme"
 			}
 		]
 	}
