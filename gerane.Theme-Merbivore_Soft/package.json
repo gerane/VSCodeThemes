@@ -1,8 +1,8 @@
 {
 	"name": "Theme-MerbivoreSoft",
-	"displayName": "MerbivoreSoft Theme",
-	"description": "MerbivoreSoft Theme ported from the MerbivoreSoft TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "Merbivore_Soft Theme",
+	"description": "Merbivore_Soft Theme ported from the MerbivoreSoft TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-MerbivoreSoft/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Merbivore_Soft/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "MerbivoreSoft",
+				"label": "Merbivore_Soft",
 				"uiTheme": "vs-dark",
-				"path": "./themes/MerbivoreSoft.tmTheme"
+				"path": "./themes/Merbivore_Soft.tmTheme"
 			}
 		]
 	}
