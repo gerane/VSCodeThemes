@@ -1,8 +1,8 @@
 {
 	"name": "Theme-MagicWBAmiga",
-	"displayName": "MagicWBAmiga Theme",
-	"description": "MagicWBAmiga Theme ported from the MagicWBAmiga TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "MagicWB_Amiga Theme",
+	"description": "MagicWB_Amiga Theme ported from the MagicWBAmiga TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-MagicWBAmiga/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-MagicWB_Amiga/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "MagicWBAmiga",
-				"uiTheme": "vs-dark",
-				"path": "./themes/MagicWBAmiga.tmTheme"
+				"label": "MagicWB_Amiga",
+				"uiTheme": "vs",
+				"path": "./themes/MagicWB_Amiga.tmTheme"
 			}
 		]
 	}
