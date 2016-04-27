@@ -18,7 +18,7 @@
 				<key>invisibles</key>
 				<string>#3B3A32</string>
 				<key>lineHighlight</key>
-				<string>#333</string>
+				<string>#3a3a3a</string>
 				<key>selection</key>
 				<string>#875f87</string>
 				<key>findHighlight</key>
@@ -52,7 +52,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#666</string>
+				<string>#6e6e6e</string>
 			</dict>
 		</dict>
 		<dict>

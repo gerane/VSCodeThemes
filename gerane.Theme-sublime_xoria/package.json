@@ -1,8 +1,8 @@
 {
 	"name": "Theme-sublimexoria",
-	"displayName": "sublimexoria Theme",
-	"description": "sublimexoria Theme ported from the sublimexoria TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "sublime_xoria Theme",
+	"description": "sublime_xoria Theme ported from the sublimexoria TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-sublimexoria/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-sublime_xoria/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "sublimexoria",
+				"label": "sublime_xoria",
 				"uiTheme": "vs-dark",
-				"path": "./themes/sublimexoria.tmTheme"
+				"path": "./themes/sublime_xoria.tmTheme"
 			}
 		]
 	}
