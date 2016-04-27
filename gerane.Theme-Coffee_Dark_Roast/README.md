@@ -8,5 +8,5 @@ A theme based on the [Coffee_Dark_Roast TextMate Theme](http://colorsublime.com/
 
 
 ## More Information
-* [Visual Studio Marketplace](https://marketplace.visualstudio.com/items/gerane.Theme-Coffee_Dark_Roast).
+* [Visual Studio Marketplace](https://marketplace.visualstudio.com/items/gerane.Theme-CoffeeDarkRoast).
 * [GitHub repository](https://github.com/gerane/VSCodeThemes).
