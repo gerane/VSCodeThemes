@@ -2,7 +2,7 @@
 	"name": "Theme-dimmed-monokai-no-contrast",
 	"displayName": "dimmed-monokai-no-contrast Theme",
 	"description": "dimmed-monokai-no-contrast Theme ported from the dimmed-monokai-no-contrast TextMate Theme",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,7 +10,7 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
+	"icon": "icon.png",
 	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-dimmed-monokai-no-contrast/README.md",
 	"repository": {
         "type": "git",
