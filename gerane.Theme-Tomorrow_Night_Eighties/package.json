@@ -1,8 +1,8 @@
 {
 	"name": "Theme-TomorrowNightEighties",
-	"displayName": "TomorrowNightEighties Theme",
-	"description": "TomorrowNightEighties Theme ported from the TomorrowNightEighties TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "Tomorrow_Night_Eighties Theme",
+	"description": "Tomorrow_Night_Eighties Theme ported from the TomorrowNightEighties TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-TomorrowNightEighties/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Tomorrow_Night_Eighties/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "TomorrowNightEighties",
+				"label": "Tomorrow_Night_Eighties",
 				"uiTheme": "vs-dark",
-				"path": "./themes/TomorrowNightEighties.tmTheme"
+				"path": "./themes/Tomorrow_Night_Eighties.tmTheme"
 			}
 		]
 	}
