@@ -20,7 +20,7 @@
 		"themes": [
 			{
 				"label": "dimmed",
-				"uiTheme": "vs-dark",
+				"uiTheme": "vs",
 				"path": "./themes/dimmed.tmTheme"
 			}
 		]
