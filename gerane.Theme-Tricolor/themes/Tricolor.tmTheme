@@ -27,11 +27,11 @@ https://github.com/allanhortle/Centurion
 				<key>background</key>
 				<string>#1e1e1d</string>
 				<key>caret</key>
-				<string>#CCC</string>
+				<string>#d4d4d4</string>
 				<key>foreground</key>
-				<string>#aaa</string>
+				<string>#b2b2b2</string>
 				<key>lineHighlight</key>
-				<string>#000</string>
+				<string>#000000</string>
 				<key>selection</key>
 				<string>#2f2f2f</string>
 				<key>findHighlight</key>
@@ -49,7 +49,7 @@ https://github.com/allanhortle/Centurion
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#666</string>
+				<string>#6e6e6e</string>
 			</dict>
 		</dict>
 
@@ -90,7 +90,7 @@ https://github.com/allanhortle/Centurion
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#aaa</string>
+				<string>#b2b2b2</string>
 			</dict>
 		</dict>
 
