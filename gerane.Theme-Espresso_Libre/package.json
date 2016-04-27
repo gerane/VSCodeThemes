@@ -1,8 +1,8 @@
 {
 	"name": "Theme-EspressoLibre",
-	"displayName": "EspressoLibre Theme",
-	"description": "EspressoLibre Theme ported from the EspressoLibre TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "Espresso_Libre Theme",
+	"description": "Espresso_Libre Theme ported from the EspressoLibre TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-EspressoLibre/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Espresso_Libre/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "EspressoLibre",
+				"label": "Espresso_Libre",
 				"uiTheme": "vs-dark",
-				"path": "./themes/EspressoLibre.tmTheme"
+				"path": "./themes/Espresso_Libre.tmTheme"
 			}
 		]
 	}
