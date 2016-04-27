@@ -1,8 +1,8 @@
 {
 	"name": "Theme-FlatDark",
-	"displayName": "FlatDark Theme",
-	"description": "FlatDark Theme ported from the FlatDark TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "Flat_Dark Theme",
+	"description": "Flat_Dark Theme ported from the FlatDark TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-FlatDark/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Flat_Dark/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "FlatDark",
+				"label": "Flat_Dark",
 				"uiTheme": "vs-dark",
-				"path": "./themes/FlatDark.tmTheme"
+				"path": "./themes/Flat_Dark.tmTheme"
 			}
 		]
 	}
