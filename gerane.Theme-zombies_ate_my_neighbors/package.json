@@ -1,8 +1,8 @@
 {
 	"name": "Theme-zombiesatemyneighbors",
-	"displayName": "zombiesatemyneighbors Theme",
-	"description": "zombiesatemyneighbors Theme ported from the zombiesatemyneighbors TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "zombies_ate_my_neighbors Theme",
+	"description": "zombies_ate_my_neighbors Theme ported from the zombiesatemyneighbors TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-zombiesatemyneighbors/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-zombies_ate_my_neighbors/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "zombiesatemyneighbors",
+				"label": "zombies_ate_my_neighbors",
 				"uiTheme": "vs-dark",
-				"path": "./themes/zombiesatemyneighbors.tmTheme"
+				"path": "./themes/zombies_ate_my_neighbors.tmTheme"
 			}
 		]
 	}
