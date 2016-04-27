@@ -20,7 +20,7 @@
 		"themes": [
 			{
 				"label": "CodeWarrior",
-				"uiTheme": "vs-dark",
+				"uiTheme": "vs",
 				"path": "./themes/CodeWarrior.tmTheme"
 			}
 		]

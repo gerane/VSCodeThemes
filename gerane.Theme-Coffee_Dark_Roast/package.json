@@ -1,8 +1,8 @@
 {
 	"name": "Theme-CoffeeDarkRoast",
-	"displayName": "CoffeeDarkRoast Theme",
-	"description": "CoffeeDarkRoast Theme ported from the CoffeeDarkRoast TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "Coffee_Dark_Roast Theme",
+	"description": "Coffee_Dark_Roast Theme ported from the CoffeeDarkRoast TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-CoffeeDarkRoast/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Coffee_Dark_Roast/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "CoffeeDarkRoast",
+				"label": "Coffee_Dark_Roast",
 				"uiTheme": "vs-dark",
-				"path": "./themes/CoffeeDarkRoast.tmTheme"
+				"path": "./themes/Coffee_Dark_Roast.tmTheme"
 			}
 		]
 	}
