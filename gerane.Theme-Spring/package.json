@@ -2,7 +2,7 @@
 	"name": "Theme-Spring",
 	"displayName": "Spring Theme",
 	"description": "Spring Theme ported from the Spring TextMate Theme",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,7 +10,7 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
+	"icon": "icon.png",
 	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Spring/README.md",
 	"repository": {
         "type": "git",
@@ -20,7 +20,7 @@
 		"themes": [
 			{
 				"label": "Spring",
-				"uiTheme": "vs-dark",
+				"uiTheme": "vs",
 				"path": "./themes/Spring.tmTheme"
 			}
 		]
