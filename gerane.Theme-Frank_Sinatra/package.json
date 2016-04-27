@@ -1,8 +1,8 @@
 {
 	"name": "Theme-FrankSinatra",
-	"displayName": "FrankSinatra Theme",
-	"description": "FrankSinatra Theme ported from the FrankSinatra TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "Frank_Sinatra Theme",
+	"description": "Frank_Sinatra Theme ported from the FrankSinatra TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-FrankSinatra/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Frank_Sinatra/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "FrankSinatra",
+				"label": "Frank_Sinatra",
 				"uiTheme": "vs-dark",
-				"path": "./themes/FrankSinatra.tmTheme"
+				"path": "./themes/Frank_Sinatra.tmTheme"
 			}
 		]
 	}
