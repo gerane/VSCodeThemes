@@ -1,8 +1,8 @@
 {
 	"name": "Theme-Kimbiedark",
-	"displayName": "Kimbiedark Theme",
-	"description": "Kimbiedark Theme ported from the Kimbiedark TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "Kimbie_dark Theme",
+	"description": "Kimbie_dark Theme ported from the Kimbiedark TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Kimbiedark/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Kimbie_dark/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Kimbiedark",
+				"label": "Kimbie_dark",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Kimbiedark.tmTheme"
+				"path": "./themes/Kimbie_dark.tmTheme"
 			}
 		]
 	}
