@@ -1,8 +1,8 @@
 {
 	"name": "Theme-FocusDark",
-	"displayName": "FocusDark Theme",
-	"description": "FocusDark Theme ported from the FocusDark TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "Focus_Dark Theme",
+	"description": "Focus_Dark Theme ported from the FocusDark TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-FocusDark/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Focus_Dark/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "FocusDark",
+				"label": "Focus_Dark",
 				"uiTheme": "vs-dark",
-				"path": "./themes/FocusDark.tmTheme"
+				"path": "./themes/Focus_Dark.tmTheme"
 			}
 		]
 	}
