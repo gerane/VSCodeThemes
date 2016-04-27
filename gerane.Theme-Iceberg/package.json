@@ -2,7 +2,7 @@
 	"name": "Theme-Iceberg",
 	"displayName": "Iceberg Theme",
 	"description": "Iceberg Theme ported from the Iceberg TextMate Theme",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,7 +10,7 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
+	"icon": "icon.png",
 	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Iceberg/README.md",
 	"repository": {
         "type": "git",
