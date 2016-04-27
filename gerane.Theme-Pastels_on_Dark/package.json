@@ -1,8 +1,8 @@
 {
 	"name": "Theme-PastelsonDark",
-	"displayName": "PastelsonDark Theme",
-	"description": "PastelsonDark Theme ported from the PastelsonDark TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "Pastels_on_Dark Theme",
+	"description": "Pastels_on_Dark Theme ported from the PastelsonDark TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-PastelsonDark/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Pastels_on_Dark/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "PastelsonDark",
+				"label": "Pastels_on_Dark",
 				"uiTheme": "vs-dark",
-				"path": "./themes/PastelsonDark.tmTheme"
+				"path": "./themes/Pastels_on_Dark.tmTheme"
 			}
 		]
 	}
