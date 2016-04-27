@@ -1,8 +1,8 @@
 {
 	"name": "Theme-TomorrowNightBright",
-	"displayName": "TomorrowNightBright Theme",
-	"description": "TomorrowNightBright Theme ported from the TomorrowNightBright TextMate Theme",
-	"version": "0.0.1",
+	"displayName": "Tomorrow_Night_Bright Theme",
+	"description": "Tomorrow_Night_Bright Theme ported from the TomorrowNightBright TextMate Theme",
+	"version": "0.0.2",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -10,8 +10,8 @@
 	"categories": [
 		"Themes"
 	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-TomorrowNightBright/README.md",
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Tomorrow_Night_Bright/README.md",
 	"repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
@@ -19,9 +19,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "TomorrowNightBright",
+				"label": "Tomorrow_Night_Bright",
 				"uiTheme": "vs-dark",
-				"path": "./themes/TomorrowNightBright.tmTheme"
+				"path": "./themes/Tomorrow_Night_Bright.tmTheme"
 			}
 		]
 	}
