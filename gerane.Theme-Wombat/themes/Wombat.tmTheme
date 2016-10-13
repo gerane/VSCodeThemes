@@ -605,19 +605,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS: Function Name</string>
-			<key>scope</key>
-			<string>meta.function.js, entity.name.function.js, support.function.dom.js</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#cae682</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>JS: Storage Type</string>
 			<key>scope</key>
 			<string>storage.type.js</string>
