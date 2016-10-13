@@ -157,11 +157,9 @@
 			<key>scope</key>
 			<string>meta.separator</string>
 			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#4271AE</string>
+			<dict>				
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#4D4D4C</string>
 			</dict>
 		</dict>
 		<dict>
