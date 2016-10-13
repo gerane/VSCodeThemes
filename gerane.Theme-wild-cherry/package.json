@@ -2,7 +2,7 @@
 	"name": "Theme-wild-cherry",
 	"displayName": "wild-cherry Theme",
 	"description": "wild-cherry Theme ported from the wild-cherry TextMate Theme",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
