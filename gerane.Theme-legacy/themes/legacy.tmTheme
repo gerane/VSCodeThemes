@@ -31,7 +31,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
                 <key>lineHighlight</key>
                 <string>#1b232c</string>
                 <key>selection</key>
-                <string>#FF410D</string>
+                <string>#32353b</string>
                 <key>selectionForeground</key>
                 <string>#ffffff</string>
                 <key>findHighlight</key>
@@ -65,7 +65,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#324357</string>
+                <string>#596f88</string>
             </dict>
         </dict>
         <dict>
