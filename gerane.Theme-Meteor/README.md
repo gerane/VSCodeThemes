@@ -1,6 +1,6 @@
 # Meteor
 
-A theme based on the [Meteor TextMate Theme](http://colorsublime.com/theme/Meteor).
+A theme based on the [Meteor TextMate Theme](http://colorsublime.com/theme/Meteor) by [stagfoo](https://github.com/stagfoo)
 
 
 ## Screenshot
