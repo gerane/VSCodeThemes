@@ -2,7 +2,7 @@
 	"name": "Theme-Github",
 	"displayName": "Github Theme",
 	"description": "Github Theme ported from the Github TextMate Theme",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
