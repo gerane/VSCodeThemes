@@ -284,6 +284,28 @@
             </dict>
         </dict>
         <dict>
+			<key>name</key>
+			<string>Javascript object literal separator</string>
+			<key>scope</key>
+			<string>punctuation.separator.key-value.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6c71c4</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>Javascript object literal key</string>
+			<key>scope</key>
+			<string>meta.object-literal.key.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f1c40f</string>
+			</dict>
+		</dict>
+        <dict>
             <key>name</key>
             <string>Tag name</string>
             <key>scope</key>
