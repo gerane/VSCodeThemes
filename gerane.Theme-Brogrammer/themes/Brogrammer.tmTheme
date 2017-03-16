@@ -285,6 +285,28 @@
         </dict>
         <dict>
             <key>name</key>
+            <string>Tag name</string>
+            <key>scope</key>
+            <string>entity.name.tag</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e74c3c</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Tag attribute</string>
+            <key>scope</key>
+            <string>entity.other.attribute-name</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#2ecc71</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
             <string>Meta.tag.A</string>
             <key>scope</key>
             <string>declaration.tag, declaration.tag entity, meta.tag, meta.tag entity</string>
