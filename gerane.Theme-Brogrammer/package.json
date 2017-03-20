@@ -1,28 +1,28 @@
 {
-	"name": "Theme-Brogrammer",
-	"displayName": "Brogrammer Theme",
-	"description": "Brogrammer Theme ported from the Brogrammer TextMate Theme",
-	"version": "0.0.3",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Brogrammer/README.md",
-	"repository": {
+    "name": "Theme-Brogrammer",
+    "displayName": "Brogrammer Theme",
+    "description": "Brogrammer Theme ported from the Brogrammer TextMate Theme",
+    "version": "0.0.4",
+    "publisher": "gerane",
+    "engines": {
+        "vscode": "^0.10.1"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Brogrammer/README.md",
+    "repository": {
         "type": "git",
         "url": "https://github.com/gerane/VSCodeThemes.git"
     },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Brogrammer",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Brogrammer.tmTheme"
-			}
-		]
-	}
+    "contributes": {
+        "themes": [
+            {
+                "label": "Brogrammer",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Brogrammer.tmTheme"
+            }
+        ]
+    }
 }
