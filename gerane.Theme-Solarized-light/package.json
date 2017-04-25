@@ -2,7 +2,7 @@
 	"name": "Theme-Solarized-light",
 	"displayName": "Solarized-light Theme",
 	"description": "Solarized-light Theme ported from the Solarized-light TextMate Theme",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "gerane",
 	"engines": {
 		"vscode": "^0.10.1"
@@ -20,7 +20,7 @@
 		"themes": [
 			{
 				"label": "Solarized-light",
-				"uiTheme": "vs-dark",
+				"uiTheme": "vs",
 				"path": "./themes/Solarized-light.tmTheme"
 			}
 		]
