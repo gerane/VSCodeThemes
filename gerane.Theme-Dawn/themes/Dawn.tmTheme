@@ -157,21 +157,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Invalid – Illegal</string>
-			<key>scope</key>
-			<string>invalid.illegal</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#B52A1D</string>
-				<key>fontStyle</key>
-				<string>italic underline</string>
-				<key>foreground</key>
-				<string>#F8F8F8</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>String embedded-source</string>
 			<key>scope</key>
 			<string>string source</string>
