@@ -2,7 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!-- Created by: ilm techno solutions                 -->
 <!-- ============================================ -->
-<!-- code: https://github.com/codex8/Colorsublime-Themes -->
 <plist version="1.0">
 <dict>
 	<key>name</key>
@@ -364,6 +363,6 @@
 	<key>author</key>
 	<string>sameer</string>
 	<key>comment</key>
-	<string>https://github.com/codex8/Colorsublime-Themes</string>
+	<string></string>
 </dict>
 </plist>

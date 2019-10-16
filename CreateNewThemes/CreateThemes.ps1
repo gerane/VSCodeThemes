@@ -5,17 +5,17 @@
         $ThemeName,
         $ThemeUrl
     )
-    begin 
+    begin
     {
         $ThemeFolder = 'gerane.Theme-' + $ThemeName
-        $BaseThemeDir = "$env:USERPROFILE\documents\github\VSCode-ZenburnTheme\gerane.Theme-Zenburn"
-        $VSCodeThemesDir = "$env:USERPROFILE\documents\github\VSCodeThemes"
+        $BaseThemeDir = "C:\github\VSCode-ZenburnTheme\gerane.Theme-Zenburn"
+        $VSCodeThemesDir = "C:\github\VSCodeThemes"
         $NewThemeDir = $VSCodeThemesDir + '\' + $ThemeFolder
     }
     process
     {
         New-Item $NewThemeDir -ItemType Directory
-        Copy-Item -Path "$env:USERPROFILE\documents\github\VSCode-ZenburnThemetemp\gerane.Theme-Zenburn\*" -Destination $NewThemeDir -Recurse
+        Copy-Item -Path "C:\github\VSCode-ZenburnThemetemp\gerane.Theme-Zenburn\*" -Destination $NewThemeDir -Recurse
         Remove-Item -Path "$NewThemeDir\themes\*" -Recurse -Include '*.tmTheme'
     }
     end {}
@@ -29,17 +29,17 @@ function Set-ThemeJson
         $ThemeName,
         $tmtheme
     )
-    begin 
+    begin
     {
         $ThemeFolder = 'gerane.Theme-' + $ThemeName
-        $BaseThemeDir = "$env:USERPROFILE\documents\github\VSCode-ZenburnThemeTemp\gerane.Theme-Zenburn"
-        $VSCodeThemesDir = "$env:USERPROFILE\documents\github\VSCodeThemes"
+        $BaseThemeDir = "C:\github\VSCode-ZenburnThemeTemp\gerane.Theme-Zenburn"
+        $VSCodeThemesDir = "C:\github\VSCodeThemes"
         $NewThemeDir = $VSCodeThemesDir + '\' + $ThemeFolder
     }
-    process 
+    process
     {
         $JsonThemeName = 'Theme-' + $ThemeName
-        
+
         $JsonFile = Get-Content "$NewThemeDir\package.json"
         $JsonFile1 = $jsonfile.replace('Changeme1',"Theme-$ThemeName")
         $JsonFile2 = $JsonFile1.replace('Changeme2',"$($ThemeName) Theme")
@@ -61,11 +61,11 @@ function Set-ThemeReadme
         $ThemeName,
         $ThemeUrl
     )
-    begin 
+    begin
     {
         $ThemeFolder = 'gerane.Theme-' + $ThemeName
-        $BaseThemeDir = "$env:USERPROFILE\documents\github\VSCode-ZenburnTheme\gerane.Theme-Zenburn"
-        $VSCodeThemesDir = "$env:USERPROFILE\documents\github\VSCodeThemes"
+        $BaseThemeDir = "C:\github\VSCode-ZenburnTheme\gerane.Theme-Zenburn"
+        $VSCodeThemesDir = "C:\github\VSCodeThemes"
         $NewThemeDir = $VSCodeThemesDir + '\' + $ThemeFolder
     }
     process
@@ -86,11 +86,11 @@ function Get-ThemeFile
         $DownloadUrl,
         $TmTheme
     )
-    begin 
+    begin
     {
         $ThemeFolder = 'gerane.Theme-' + $ThemeName
-        $BaseThemeDir = "$env:USERPROFILE\documents\github\VSCode-ZenburnThemeTemp\gerane.Theme-Zenburn"
-        $VSCodeThemesDir = "$env:USERPROFILE\documents\github\VSCodeThemes"
+        $BaseThemeDir = "C:\github\VSCode-ZenburnThemeTemp\gerane.Theme-Zenburn"
+        $VSCodeThemesDir = "C:\github\VSCodeThemes"
         $NewThemeDir = $VSCodeThemesDir + '\' + $ThemeFolder
     }
     process
@@ -116,7 +116,7 @@ foreach ($url in $urllist)
         $ThemeUrl = $url
         $ThemeName = $Url.split('/')[-1]
         $TmTheme = ((((Invoke-WebRequest -Uri (($WebContent.links | where { $_.innertext -like '*Download*' }).href)).headers)."content-disposition").split('=')[1]).replace("`"","")
-    
+
 
         New-Theme -ThemeName $ThemeName -ThemeUrl $ThemeUrl
         Get-ThemeFile -DownloadUrl $DownloadUrl -TmTheme $TmTheme
