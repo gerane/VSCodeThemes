@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=New-Day; uiTheme=vs; path=./themes/New-Day.tmTheme}"
+                                       {
+                                           "label":  "New-Day",
+                                           "path":  "./themes/New-Day.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

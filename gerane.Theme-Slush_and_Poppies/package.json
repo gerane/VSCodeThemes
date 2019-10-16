@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Slush_and_Poppies; uiTheme=vs; path=./themes/Slush_and_Poppies.tmTheme}"
+                                       {
+                                           "label":  "Slush_and_Poppies",
+                                           "path":  "./themes/Slush_and_Poppies.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

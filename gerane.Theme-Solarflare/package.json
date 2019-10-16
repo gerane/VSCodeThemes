@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Solarflare; uiTheme=vs-dark; path=./themes/Solarflare.tmTheme}"
+                                       {
+                                           "label":  "Solarflare",
+                                           "path":  "./themes/Solarflare.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

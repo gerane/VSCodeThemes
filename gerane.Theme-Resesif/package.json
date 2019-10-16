@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Resesif; uiTheme=vs-dark; path=./themes/Resesif.tmTheme}"
+                                       {
+                                           "label":  "Resesif",
+                                           "path":  "./themes/Resesif.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

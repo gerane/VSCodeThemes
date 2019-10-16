@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Metropolis; uiTheme=vs-dark; path=./themes/Metropolis.tmTheme}"
+                                       {
+                                           "label":  "Metropolis",
+                                           "path":  "./themes/Metropolis.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

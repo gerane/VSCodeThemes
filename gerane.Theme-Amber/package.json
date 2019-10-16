@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Amber; uiTheme=vs-dark; path=./themes/Amber.tmTheme}"
+                                       {
+                                           "label":  "Amber",
+                                           "path":  "./themes/Amber.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

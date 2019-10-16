@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Rebecca-mint; uiTheme=vs-dark; path=./themes/Rebecca-mint.tmTheme}"
+                                       {
+                                           "label":  "Rebecca-mint",
+                                           "path":  "./themes/Rebecca-mint.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=sublime_xoria; uiTheme=vs-dark; path=./themes/sublime_xoria.tmTheme}"
+                                       {
+                                           "label":  "sublime_xoria",
+                                           "path":  "./themes/sublime_xoria.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

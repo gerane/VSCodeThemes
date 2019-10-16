@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Tomorrow_Night_Eighties; uiTheme=vs-dark; path=./themes/Tomorrow_Night_Eighties.tmTheme}"
+                                       {
+                                           "label":  "Tomorrow_Night_Eighties",
+                                           "path":  "./themes/Tomorrow_Night_Eighties.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=LastNight; uiTheme=vs-dark; path=./themes/LastNight.tmTheme}"
+                                       {
+                                           "label":  "LastNight",
+                                           "path":  "./themes/LastNight.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

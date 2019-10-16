@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Poyeyo_Blue; uiTheme=vs-dark; path=./themes/Poyeyo_Blue.tmTheme}"
+                                       {
+                                           "label":  "Poyeyo_Blue",
+                                           "path":  "./themes/Poyeyo_Blue.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

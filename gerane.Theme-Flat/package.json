@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Flat; uiTheme=vs; path=./themes/Flat.tmTheme}"
+                                       {
+                                           "label":  "Flat",
+                                           "path":  "./themes/Flat.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

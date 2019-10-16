@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=CarbonightBlue; uiTheme=vs-dark; path=./themes/CarbonightBlue.tmTheme}"
+                                       {
+                                           "label":  "CarbonightBlue",
+                                           "path":  "./themes/CarbonightBlue.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

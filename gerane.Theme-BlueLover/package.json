@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=BlueLover; uiTheme=vs-dark; path=./themes/BlueLover.tmTheme}"
+                                       {
+                                           "label":  "BlueLover",
+                                           "path":  "./themes/BlueLover.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=krTheme; uiTheme=vs-dark; path=./themes/krTheme.tmTheme}"
+                                       {
+                                           "label":  "krTheme",
+                                           "path":  "./themes/krTheme.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

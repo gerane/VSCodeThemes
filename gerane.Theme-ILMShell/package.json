@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=ILMShell; uiTheme=vs-dark; path=./themes/ILMShell.tmTheme}"
+                                       {
+                                           "label":  "ILMShell",
+                                           "path":  "./themes/ILMShell.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

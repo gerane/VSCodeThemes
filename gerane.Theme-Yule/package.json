@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Yule; uiTheme=vs-dark; path=./themes/Yule.tmTheme}"
+                                       {
+                                           "label":  "Yule",
+                                           "path":  "./themes/Yule.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

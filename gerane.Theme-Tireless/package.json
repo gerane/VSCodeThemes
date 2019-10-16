@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Tireless; uiTheme=vs-dark; path=./themes/Tireless.tmTheme}"
+                                       {
+                                           "label":  "Tireless",
+                                           "path":  "./themes/Tireless.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

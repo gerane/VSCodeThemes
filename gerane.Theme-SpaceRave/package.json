@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=SpaceRave; uiTheme=vs-dark; path=./themes/SpaceRave.tmTheme}"
+                                       {
+                                           "label":  "SpaceRave",
+                                           "path":  "./themes/SpaceRave.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

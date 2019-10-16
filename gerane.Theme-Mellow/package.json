@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Mellow; uiTheme=vs-dark; path=./themes/Mellow.tmTheme}"
+                                       {
+                                           "label":  "Mellow",
+                                           "path":  "./themes/Mellow.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

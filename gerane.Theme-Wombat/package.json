@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Wombat; uiTheme=vs-dark; path=./themes/Wombat.tmTheme}"
+                                       {
+                                           "label":  "Wombat",
+                                           "path":  "./themes/Wombat.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

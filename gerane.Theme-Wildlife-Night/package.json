@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Wildlife-Night; uiTheme=vs-dark; path=./themes/Wildlife-Night.tmTheme}"
+                                       {
+                                           "label":  "Wildlife-Night",
+                                           "path":  "./themes/Wildlife-Night.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

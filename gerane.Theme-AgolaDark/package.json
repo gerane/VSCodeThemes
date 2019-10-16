@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=AgolaDark; uiTheme=vs-dark; path=./themes/AgolaDark.tmTheme}"
+                                       {
+                                           "label":  "AgolaDark",
+                                           "path":  "./themes/AgolaDark.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

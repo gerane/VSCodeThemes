@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Sunburst; uiTheme=vs-dark; path=./themes/Sunburst.tmTheme}"
+                                       {
+                                           "label":  "Sunburst",
+                                           "path":  "./themes/Sunburst.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

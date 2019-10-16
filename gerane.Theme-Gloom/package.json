@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Gloom; uiTheme=vs-dark; path=./themes/Gloom.tmTheme}"
+                                       {
+                                           "label":  "Gloom",
+                                           "path":  "./themes/Gloom.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

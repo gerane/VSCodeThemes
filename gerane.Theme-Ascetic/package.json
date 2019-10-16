@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Ascetic; uiTheme=vs; path=./themes/Ascetic.tmTheme}"
+                                       {
+                                           "label":  "Ascetic",
+                                           "path":  "./themes/Ascetic.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

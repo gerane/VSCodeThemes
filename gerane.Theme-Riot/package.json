@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Riot; uiTheme=vs-dark; path=./themes/Riot.tmTheme}"
+                                       {
+                                           "label":  "Riot",
+                                           "path":  "./themes/Riot.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

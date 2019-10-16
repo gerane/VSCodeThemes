@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Brunette; uiTheme=vs-dark; path=./themes/Brunette.tmTheme}"
+                                       {
+                                           "label":  "Brunette",
+                                           "path":  "./themes/Brunette.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

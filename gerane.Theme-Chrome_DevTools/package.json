@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Chrome_DevTools; uiTheme=vs; path=./themes/Chrome_DevTools.tmTheme}"
+                                       {
+                                           "label":  "Chrome_DevTools",
+                                           "path":  "./themes/Chrome_DevTools.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

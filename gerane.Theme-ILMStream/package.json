@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=ILMStream; uiTheme=vs-dark; path=./themes/ILMStream.tmTheme}"
+                                       {
+                                           "label":  "ILMStream",
+                                           "path":  "./themes/ILMStream.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

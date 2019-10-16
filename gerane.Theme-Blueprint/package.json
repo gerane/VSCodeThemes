@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Blueprint; uiTheme=vs-dark; path=./themes/Blueprint.tmTheme}"
+                                       {
+                                           "label":  "Blueprint",
+                                           "path":  "./themes/Blueprint.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

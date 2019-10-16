@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=keen; uiTheme=vs-dark; path=./themes/keen.tmTheme}"
+                                       {
+                                           "label":  "keen",
+                                           "path":  "./themes/keen.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

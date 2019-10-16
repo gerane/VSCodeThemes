@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=TricolorLight; uiTheme=vs; path=./themes/TricolorLight.tmTheme}"
+                                       {
+                                           "label":  "TricolorLight",
+                                           "path":  "./themes/TricolorLight.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

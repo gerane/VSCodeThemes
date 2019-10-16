@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=zombies_ate_my_neighbors; uiTheme=vs-dark; path=./themes/zombies_ate_my_neighbors.tmTheme}"
+                                       {
+                                           "label":  "zombies_ate_my_neighbors",
+                                           "path":  "./themes/zombies_ate_my_neighbors.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

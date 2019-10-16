@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Brilliance_Black; uiTheme=vs-dark; path=./themes/Brilliance_Black.tmTheme}"
+                                       {
+                                           "label":  "Brilliance_Black",
+                                           "path":  "./themes/Brilliance_Black.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

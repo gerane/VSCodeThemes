@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Oceanic_Next; uiTheme=vs-dark; path=./themes/Oceanic_Next.tmTheme}"
+                                       {
+                                           "label":  "Oceanic_Next",
+                                           "path":  "./themes/Oceanic_Next.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

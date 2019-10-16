@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Flatland_Black; uiTheme=vs-dark; path=./themes/Flatland_Black.tmTheme}"
+                                       {
+                                           "label":  "Flatland_Black",
+                                           "path":  "./themes/Flatland_Black.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

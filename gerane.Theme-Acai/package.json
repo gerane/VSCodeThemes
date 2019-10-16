@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Acai; uiTheme=vs-dark; path=./themes/Acai.tmTheme}"
+                                       {
+                                           "label":  "Acai",
+                                           "path":  "./themes/Acai.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

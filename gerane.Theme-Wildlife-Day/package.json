@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Wildlife-Day; uiTheme=vs; path=./themes/Wildlife-Day.tmTheme}"
+                                       {
+                                           "label":  "Wildlife-Day",
+                                           "path":  "./themes/Wildlife-Day.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

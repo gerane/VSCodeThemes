@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Merbivore_Soft; uiTheme=vs-dark; path=./themes/Merbivore_Soft.tmTheme}"
+                                       {
+                                           "label":  "Merbivore_Soft",
+                                           "path":  "./themes/Merbivore_Soft.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

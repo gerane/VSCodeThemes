@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Stark; uiTheme=vs-dark; path=./themes/Stark.tmTheme}"
+                                       {
+                                           "label":  "Stark",
+                                           "path":  "./themes/Stark.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

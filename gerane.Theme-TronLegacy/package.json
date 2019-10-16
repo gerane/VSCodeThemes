@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=TronLegacy; uiTheme=vs-dark; path=./themes/TronLegacy.tmTheme}"
+                                       {
+                                           "label":  "TronLegacy",
+                                           "path":  "./themes/TronLegacy.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

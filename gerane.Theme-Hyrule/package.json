@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Hyrule; uiTheme=vs-dark; path=./themes/Hyrule.tmTheme}"
+                                       {
+                                           "label":  "Hyrule",
+                                           "path":  "./themes/Hyrule.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

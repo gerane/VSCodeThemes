@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=bashling; uiTheme=vs-dark; path=./themes/bashling.tmTheme}"
+                                       {
+                                           "label":  "bashling",
+                                           "path":  "./themes/bashling.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

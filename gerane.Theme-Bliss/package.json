@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Bliss; uiTheme=vs-dark; path=./themes/Bliss.tmTheme}"
+                                       {
+                                           "label":  "Bliss",
+                                           "path":  "./themes/Bliss.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

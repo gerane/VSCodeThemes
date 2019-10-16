@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Dracula; uiTheme=vs-dark; path=./themes/Dracula.tmTheme}"
+                                       {
+                                           "label":  "Dracula",
+                                           "path":  "./themes/Dracula.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

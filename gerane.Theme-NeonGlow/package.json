@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=NeonGlow; uiTheme=vs-dark; path=./themes/NeonGlow.tmTheme}"
+                                       {
+                                           "label":  "NeonGlow",
+                                           "path":  "./themes/NeonGlow.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

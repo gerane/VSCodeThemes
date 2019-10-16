@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Meteor; uiTheme=vs-dark; path=./themes/Meteor.tmTheme}"
+                                       {
+                                           "label":  "Meteor",
+                                           "path":  "./themes/Meteor.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

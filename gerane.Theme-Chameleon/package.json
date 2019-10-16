@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Chameleon; uiTheme=vs-dark; path=./themes/Chameleon.tmTheme}"
+                                       {
+                                           "label":  "Chameleon",
+                                           "path":  "./themes/Chameleon.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=HotDogStand; uiTheme=vs-dark; path=./themes/HotDogStand.tmTheme}"
+                                       {
+                                           "label":  "HotDogStand",
+                                           "path":  "./themes/HotDogStand.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

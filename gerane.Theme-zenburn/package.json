@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=zenburn; uiTheme=vs-dark; path=./themes/zenburn.tmTheme}"
+                                       {
+                                           "label":  "zenburn",
+                                           "path":  "./themes/zenburn.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

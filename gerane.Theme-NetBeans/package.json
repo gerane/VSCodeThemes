@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=NetBeans; uiTheme=vs; path=./themes/NetBeans.tmTheme}"
+                                       {
+                                           "label":  "NetBeans",
+                                           "path":  "./themes/NetBeans.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Spearmint; uiTheme=vs; path=./themes/Spearmint.tmTheme}"
+                                       {
+                                           "label":  "Spearmint",
+                                           "path":  "./themes/Spearmint.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

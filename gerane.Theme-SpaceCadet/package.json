@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=SpaceCadet; uiTheme=vs-dark; path=./themes/SpaceCadet.tmTheme}"
+                                       {
+                                           "label":  "SpaceCadet",
+                                           "path":  "./themes/SpaceCadet.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

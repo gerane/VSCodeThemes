@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=EggplantParm; uiTheme=vs-dark; path=./themes/EggplantParm.tmTheme}"
+                                       {
+                                           "label":  "EggplantParm",
+                                           "path":  "./themes/EggplantParm.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

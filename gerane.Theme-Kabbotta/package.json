@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Kabbotta; uiTheme=vs-dark; path=./themes/Kabbotta.tmTheme}"
+                                       {
+                                           "label":  "Kabbotta",
+                                           "path":  "./themes/Kabbotta.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

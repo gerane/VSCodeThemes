@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=GitHubCleanWhite; uiTheme=vs; path=./themes/GitHubCleanWhite.tmTheme}"
+                                       {
+                                           "label":  "GitHubCleanWhite",
+                                           "path":  "./themes/GitHubCleanWhite.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

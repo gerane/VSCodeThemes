@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Spring; uiTheme=vs; path=./themes/Spring.tmTheme}"
+                                       {
+                                           "label":  "Spring",
+                                           "path":  "./themes/Spring.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

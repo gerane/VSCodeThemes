@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Blackboard; uiTheme=vs-dark; path=./themes/Blackboard.tmTheme}"
+                                       {
+                                           "label":  "Blackboard",
+                                           "path":  "./themes/Blackboard.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

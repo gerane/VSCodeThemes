@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Sourlick; uiTheme=vs-dark; path=./themes/Sourlick.tmTheme}"
+                                       {
+                                           "label":  "Sourlick",
+                                           "path":  "./themes/Sourlick.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

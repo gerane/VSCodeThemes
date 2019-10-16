@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Kimbie_dark; uiTheme=vs-dark; path=./themes/Kimbie_dark.tmTheme}"
+                                       {
+                                           "label":  "Kimbie_dark",
+                                           "path":  "./themes/Kimbie_dark.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

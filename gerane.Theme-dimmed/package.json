@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=dimmed; uiTheme=vs; path=./themes/dimmed.tmTheme}"
+                                       {
+                                           "label":  "dimmed",
+                                           "path":  "./themes/dimmed.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

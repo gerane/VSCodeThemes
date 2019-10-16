@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Darkside; uiTheme=vs-dark; path=./themes/Darkside.tmTheme}"
+                                       {
+                                           "label":  "Darkside",
+                                           "path":  "./themes/Darkside.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

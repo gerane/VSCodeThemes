@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Grunge; uiTheme=vs-dark; path=./themes/Grunge.tmTheme}"
+                                       {
+                                           "label":  "Grunge",
+                                           "path":  "./themes/Grunge.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=DarkCF; uiTheme=vs-dark; path=./themes/DarkCF.tmTheme}"
+                                       {
+                                           "label":  "DarkCF",
+                                           "path":  "./themes/DarkCF.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

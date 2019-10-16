@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Vibrant_Ink; uiTheme=vs-dark; path=./themes/Vibrant_Ink.tmTheme}"
+                                       {
+                                           "label":  "Vibrant_Ink",
+                                           "path":  "./themes/Vibrant_Ink.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

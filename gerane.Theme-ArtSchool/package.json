@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=ArtSchool; uiTheme=vs; path=./themes/ArtSchool.tmTheme}"
+                                       {
+                                           "label":  "ArtSchool",
+                                           "path":  "./themes/ArtSchool.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

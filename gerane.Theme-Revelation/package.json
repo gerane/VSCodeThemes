@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Revelation; uiTheme=vs-dark; path=./themes/Revelation.tmTheme}"
+                                       {
+                                           "label":  "Revelation",
+                                           "path":  "./themes/Revelation.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

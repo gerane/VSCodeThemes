@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=LAZY; uiTheme=vs; path=./themes/LAZY.tmTheme}"
+                                       {
+                                           "label":  "LAZY",
+                                           "path":  "./themes/LAZY.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

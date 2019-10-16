@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=SalmonOnIce; uiTheme=vs-dark; path=./themes/SalmonOnIce.tmTheme}"
+                                       {
+                                           "label":  "SalmonOnIce",
+                                           "path":  "./themes/SalmonOnIce.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

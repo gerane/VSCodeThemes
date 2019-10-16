@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=DeerAntlerDark; uiTheme=vs-dark; path=./themes/DeerAntlerDark.tmTheme}"
+                                       {
+                                           "label":  "DeerAntlerDark",
+                                           "path":  "./themes/DeerAntlerDark.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

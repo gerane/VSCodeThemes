@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=tonic; uiTheme=vs-dark; path=./themes/tonic.tmTheme}"
+                                       {
+                                           "label":  "tonic",
+                                           "path":  "./themes/tonic.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

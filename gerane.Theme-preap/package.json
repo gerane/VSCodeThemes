@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=preap; uiTheme=vs-dark; path=./themes/preap.tmTheme}"
+                                       {
+                                           "label":  "preap",
+                                           "path":  "./themes/preap.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

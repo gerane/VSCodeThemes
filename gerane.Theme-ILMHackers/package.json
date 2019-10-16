@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=ILMHackers; uiTheme=vs-dark; path=./themes/ILMHackers.tmTheme}"
+                                       {
+                                           "label":  "ILMHackers",
+                                           "path":  "./themes/ILMHackers.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

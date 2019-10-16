@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=FreshCut; uiTheme=vs-dark; path=./themes/FreshCut.tmTheme}"
+                                       {
+                                           "label":  "FreshCut",
+                                           "path":  "./themes/FreshCut.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

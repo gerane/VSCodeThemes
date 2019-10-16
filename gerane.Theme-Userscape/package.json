@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Userscape; uiTheme=vs; path=./themes/Userscape.tmTheme}"
+                                       {
+                                           "label":  "Userscape",
+                                           "path":  "./themes/Userscape.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

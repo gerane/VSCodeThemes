@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Anarchist; uiTheme=vs-dark; path=./themes/Anarchist.tmTheme}"
+                                       {
+                                           "label":  "Anarchist",
+                                           "path":  "./themes/Anarchist.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

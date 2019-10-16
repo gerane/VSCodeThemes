@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Humane; uiTheme=vs; path=./themes/Humane.tmTheme}"
+                                       {
+                                           "label":  "Humane",
+                                           "path":  "./themes/Humane.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=LightBulb; uiTheme=vs-dark; path=./themes/LightBulb.tmTheme}"
+                                       {
+                                           "label":  "LightBulb",
+                                           "path":  "./themes/LightBulb.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

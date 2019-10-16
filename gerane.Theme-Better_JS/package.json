@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=BetterJS; uiTheme=vs-dark; path=./themes/Better_JS.tmTheme}"
+                                       {
+                                           "label":  "BetterJS",
+                                           "path":  "./themes/Better_JS.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

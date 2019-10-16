@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Paraiso_light; uiTheme=vs; path=./themes/Paraiso_light.tmTheme}"
+                                       {
+                                           "label":  "Paraiso_light",
+                                           "path":  "./themes/Paraiso_light.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

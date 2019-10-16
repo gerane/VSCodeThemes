@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=santojon; uiTheme=vs; path=./themes/santojon.tmTheme}"
+                                       {
+                                           "label":  "santojon",
+                                           "path":  "./themes/santojon.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

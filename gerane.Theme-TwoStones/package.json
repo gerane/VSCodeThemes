@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=TwoStones; uiTheme=vs-dark; path=./themes/TwoStones.tmTheme}"
+                                       {
+                                           "label":  "TwoStones",
+                                           "path":  "./themes/TwoStones.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

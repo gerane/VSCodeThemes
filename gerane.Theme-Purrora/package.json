@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Purrora; uiTheme=vs-dark; path=./themes/Purrora.tmTheme}"
+                                       {
+                                           "label":  "Purrora",
+                                           "path":  "./themes/Purrora.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

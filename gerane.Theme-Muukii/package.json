@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Muukii; uiTheme=vs-dark; path=./themes/Muukii.tmTheme}"
+                                       {
+                                           "label":  "Muukii",
+                                           "path":  "./themes/Muukii.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

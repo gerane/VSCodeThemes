@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Juicy; uiTheme=vs-dark; path=./themes/Juicy.tmTheme}"
+                                       {
+                                           "label":  "Juicy",
+                                           "path":  "./themes/Juicy.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

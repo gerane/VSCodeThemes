@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=spectral; uiTheme=vs-dark; path=./themes/spectral.tmTheme}"
+                                       {
+                                           "label":  "spectral",
+                                           "path":  "./themes/spectral.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

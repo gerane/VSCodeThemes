@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=dimmed-monokai; uiTheme=vs-dark; path=./themes/dimmed-monokai.tmTheme}"
+                                       {
+                                           "label":  "dimmed-monokai",
+                                           "path":  "./themes/dimmed-monokai.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

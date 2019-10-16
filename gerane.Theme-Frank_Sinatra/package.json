@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Frank_Sinatra; uiTheme=vs-dark; path=./themes/Frank_Sinatra.tmTheme}"
+                                       {
+                                           "label":  "Frank_Sinatra",
+                                           "path":  "./themes/Frank_Sinatra.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

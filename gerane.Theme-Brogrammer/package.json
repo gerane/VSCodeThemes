@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Brogrammer; uiTheme=vs-dark; path=./themes/Brogrammer.tmTheme}"
+                                       {
+                                           "label":  "Brogrammer",
+                                           "path":  "./themes/Brogrammer.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

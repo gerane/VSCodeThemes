@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Colonoscopy; uiTheme=vs-dark; path=./themes/Colonoscopy.tmTheme}"
+                                       {
+                                           "label":  "Colonoscopy",
+                                           "path":  "./themes/Colonoscopy.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

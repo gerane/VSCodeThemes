@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=piggy; uiTheme=vs-dark; path=./themes/piggy.tmTheme}"
+                                       {
+                                           "label":  "piggy",
+                                           "path":  "./themes/piggy.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

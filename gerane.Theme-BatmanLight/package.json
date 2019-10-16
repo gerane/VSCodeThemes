@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=BatmanLight; uiTheme=vs-dark; path=./themes/BatmanLight.tmTheme}"
+                                       {
+                                           "label":  "BatmanLight",
+                                           "path":  "./themes/BatmanLight.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

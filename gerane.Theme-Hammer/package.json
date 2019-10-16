@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Hammer; uiTheme=vs-dark; path=./themes/Hammer.tmTheme}"
+                                       {
+                                           "label":  "Hammer",
+                                           "path":  "./themes/Hammer.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

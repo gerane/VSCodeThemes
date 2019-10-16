@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Earthsong; uiTheme=vs-dark; path=./themes/Earthsong.tmTheme}"
+                                       {
+                                           "label":  "Earthsong",
+                                           "path":  "./themes/Earthsong.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

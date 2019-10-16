@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=GoldenDragon; uiTheme=vs-dark; path=./themes/GoldenDragon.tmTheme}"
+                                       {
+                                           "label":  "GoldenDragon",
+                                           "path":  "./themes/GoldenDragon.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

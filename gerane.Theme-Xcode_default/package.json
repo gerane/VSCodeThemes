@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Xcode_default; uiTheme=vs; path=./themes/Xcode_default.tmTheme}"
+                                       {
+                                           "label":  "Xcode_default",
+                                           "path":  "./themes/Xcode_default.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }
