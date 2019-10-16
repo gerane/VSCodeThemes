@@ -2,7 +2,7 @@
     "name":  "Theme-keen",
     "displayName":  "keen Theme",
     "description":  "keen Theme ported from the keen TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

@@ -2,7 +2,7 @@
     "name":  "Theme-Heroku",
     "displayName":  "Heroku Theme",
     "description":  "Heroku Theme ported from the Heroku TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

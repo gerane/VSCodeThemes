@@ -2,7 +2,7 @@
     "name":  "Theme-KyzDark",
     "displayName":  "KyzDark Theme",
     "description":  "KyzDark Theme ported from the KyzDark TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

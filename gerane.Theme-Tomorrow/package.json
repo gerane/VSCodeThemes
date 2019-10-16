@@ -2,7 +2,7 @@
     "name":  "Theme-Tomorrow",
     "displayName":  "Tomorrow Theme",
     "description":  "Tomorrow Theme ported from the Tomorrow TextMate Theme",
-    "version":  "0.0.5",
+    "version":  "0.0.6",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

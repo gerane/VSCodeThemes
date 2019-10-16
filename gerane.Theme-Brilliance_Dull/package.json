@@ -2,7 +2,7 @@
     "name":  "Theme-BrillianceDull",
     "displayName":  "Brilliance_Dull Theme",
     "description":  "Brilliance_Dull Theme ported from the BrillianceDull TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

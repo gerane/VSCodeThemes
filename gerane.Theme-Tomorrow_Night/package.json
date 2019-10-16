@@ -2,7 +2,7 @@
     "name":  "Theme-TomorrowNight",
     "displayName":  "Tomorrow_Night Theme",
     "description":  "Tomorrow_Night Theme ported from the TomorrowNight TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

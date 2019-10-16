@@ -2,7 +2,7 @@
     "name":  "Theme-feelgood",
     "displayName":  "feel_good Theme",
     "description":  "feel_good Theme ported from the feelgood TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

@@ -2,7 +2,7 @@
     "name":  "Theme-EspressoLibre",
     "displayName":  "Espresso_Libre Theme",
     "description":  "Espresso_Libre Theme ported from the EspressoLibre TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

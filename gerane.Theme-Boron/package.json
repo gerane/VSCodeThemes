@@ -2,7 +2,7 @@
     "name":  "Theme-Boron",
     "displayName":  "Boron Theme",
     "description":  "Boron Theme ported from the Boron TextMate Theme",
-    "version":  "0.0.6",
+    "version":  "0.0.7",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

@@ -2,7 +2,7 @@
     "name":  "Theme-Muukii",
     "displayName":  "Muukii Theme",
     "description":  "Muukii Theme ported from the Muukii TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

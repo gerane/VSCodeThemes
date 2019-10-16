@@ -2,7 +2,7 @@
     "name":  "Theme-LastRoomDark",
     "displayName":  "LastRoom_Dark Theme",
     "description":  "LastRoom_Dark Theme ported from the LastRoomDark TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

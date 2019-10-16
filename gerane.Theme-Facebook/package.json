@@ -2,7 +2,7 @@
     "name":  "Theme-Facebook",
     "displayName":  "Facebook Theme",
     "description":  "Facebook Theme ported from the Facebook TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

@@ -2,7 +2,7 @@
     "name":  "Theme-deepbluesee",
     "displayName":  "deep_blue_see Theme",
     "description":  "deep_blue_see Theme ported from the deepbluesee TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

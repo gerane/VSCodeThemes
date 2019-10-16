@@ -2,7 +2,7 @@
     "name":  "Theme-Tron",
     "displayName":  "Tron Theme",
     "description":  "Tron Theme ported from the Tron TextMate Theme",
-    "version":  "0.0.5",
+    "version":  "0.0.6",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

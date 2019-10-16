@@ -2,7 +2,7 @@
     "name":  "Theme-slate",
     "displayName":  "slate Theme",
     "description":  "slate Theme ported from the slate TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

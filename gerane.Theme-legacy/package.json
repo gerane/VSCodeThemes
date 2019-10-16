@@ -2,7 +2,7 @@
     "name":  "Theme-legacy",
     "displayName":  "legacy Theme",
     "description":  "legacy Theme ported from the legacy TextMate Theme",
-    "version":  "0.0.5",
+    "version":  "0.0.6",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

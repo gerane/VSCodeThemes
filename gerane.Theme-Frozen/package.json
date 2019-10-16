@@ -2,7 +2,7 @@
     "name":  "Theme-Frozen",
     "displayName":  "Frozen Theme",
     "description":  "Frozen Theme ported from the Frozen TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

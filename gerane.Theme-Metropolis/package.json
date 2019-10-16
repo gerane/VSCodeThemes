@@ -2,7 +2,7 @@
     "name":  "Theme-Metropolis",
     "displayName":  "Metropolis Theme",
     "description":  "Metropolis Theme ported from the Metropolis TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

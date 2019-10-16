@@ -2,7 +2,7 @@
     "name":  "Theme-Seafoam-Pastel-Dark",
     "displayName":  "Seafoam-Pastel-Dark Theme",
     "description":  "Seafoam-Pastel-Dark Theme ported from the Seafoam-Pastel-Dark TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

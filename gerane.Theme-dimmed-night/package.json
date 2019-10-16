@@ -2,7 +2,7 @@
     "name":  "Theme-dimmed-night",
     "displayName":  "dimmed-night Theme",
     "description":  "dimmed-night Theme ported from the dimmed-night TextMate Theme",
-    "version":  "0.0.5",
+    "version":  "0.0.6",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

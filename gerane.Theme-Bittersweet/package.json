@@ -2,7 +2,7 @@
     "name":  "Theme-Bittersweet",
     "displayName":  "Bittersweet Theme",
     "description":  "Bittersweet Theme ported from the Bittersweet TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

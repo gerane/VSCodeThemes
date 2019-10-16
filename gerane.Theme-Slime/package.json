@@ -2,7 +2,7 @@
     "name":  "Theme-Slime",
     "displayName":  "Slime Theme",
     "description":  "Slime Theme ported from the Slime TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

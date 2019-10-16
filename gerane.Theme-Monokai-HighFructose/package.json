@@ -2,7 +2,7 @@
     "name":  "Theme-Monokai-HighFructose",
     "displayName":  "Monokai-HighFructose Theme",
     "description":  "Monokai-HighFructose Theme ported from the Monokai-HighFructose TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

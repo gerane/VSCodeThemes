@@ -2,7 +2,7 @@
     "name":  "Theme-CoffeeDarkRoast",
     "displayName":  "Coffee_Dark_Roast Theme",
     "description":  "Coffee_Dark_Roast Theme ported from the CoffeeDarkRoast TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

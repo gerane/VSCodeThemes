@@ -2,7 +2,7 @@
     "name":  "Theme-Flat",
     "displayName":  "Flat Theme",
     "description":  "Flat Theme ported from the Flat TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

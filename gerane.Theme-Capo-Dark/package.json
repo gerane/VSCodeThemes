@@ -2,7 +2,7 @@
     "name":  "Theme-Capo-Dark",
     "displayName":  "Capo-Dark Theme",
     "description":  "Capo-Dark Theme ported from the Capo-Dark TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

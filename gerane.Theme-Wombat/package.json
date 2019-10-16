@@ -2,7 +2,7 @@
     "name":  "Theme-Wombat",
     "displayName":  "Wombat Theme",
     "description":  "Wombat Theme ported from the Wombat TextMate Theme",
-    "version":  "0.0.5",
+    "version":  "0.0.6",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

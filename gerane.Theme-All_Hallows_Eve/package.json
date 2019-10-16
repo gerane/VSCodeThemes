@@ -2,7 +2,7 @@
     "name":  "Theme-AllHallowsEve",
     "displayName":  "All_Hallows_Eve Theme",
     "description":  "All_Hallows_Eve Theme ported from the AllHallowsEve TextMate Theme",
-    "version":  "0.0.6",
+    "version":  "0.0.7",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"
