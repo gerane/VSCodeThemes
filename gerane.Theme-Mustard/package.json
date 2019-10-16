@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Mustard",
-	"displayName": "Mustard Theme",
-	"description": "Mustard Theme ported from the Mustard TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Mustard/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Mustard",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Mustard.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Mustard",
+    "displayName":  "Mustard Theme",
+    "description":  "Mustard Theme ported from the Mustard TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Mustard/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Mustard; uiTheme=vs-dark; path=./themes/Mustard.tmTheme}"
+                                   ]
+                    }
 }

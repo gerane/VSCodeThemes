@@ -1,28 +1,24 @@
 {
-    "name": "Theme-Monokai-Soft-MD",
-    "displayName": "Monokai-Soft-MD Theme",
-    "description": "Monokai-Soft-MD Theme ported from the Monokai-Soft-MD TextMate Theme",
-    "version": "0.0.3",
-    "publisher": "gerane",
-    "engines": {
-        "vscode": "^0.10.1"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "icon": "icon.png",
-    "homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Monokai-Soft-MD/README.md",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Monokai-Soft-MD",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Monokai-Soft-MD.tmTheme"
-            }
-        ]
-    }
+    "name":  "Theme-Monokai-Soft-MD",
+    "displayName":  "Monokai-Soft-MD Theme",
+    "description":  "Monokai-Soft-MD Theme ported from the Monokai-Soft-MD TextMate Theme",
+    "version":  "0.0.4",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Monokai-Soft-MD/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Monokai-Soft-MD; uiTheme=vs-dark; path=./themes/Monokai-Soft-MD.tmTheme}"
+                                   ]
+                    }
 }

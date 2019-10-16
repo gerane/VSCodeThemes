@@ -1,28 +1,24 @@
 {
-	"name": "Theme-OceanicNext",
-	"displayName": "Oceanic_Next Theme",
-	"description": "Oceanic_Next Theme ported from the OceanicNext TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Oceanic_Next/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Oceanic_Next",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Oceanic_Next.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-OceanicNext",
+    "displayName":  "Oceanic_Next Theme",
+    "description":  "Oceanic_Next Theme ported from the OceanicNext TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Oceanic_Next/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Oceanic_Next; uiTheme=vs-dark; path=./themes/Oceanic_Next.tmTheme}"
+                                   ]
+                    }
 }

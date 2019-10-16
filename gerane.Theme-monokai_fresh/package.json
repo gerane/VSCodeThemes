@@ -1,28 +1,24 @@
 {
-	"name": "Theme-monokaifresh",
-	"displayName": "monokai_fresh Theme",
-	"description": "monokai_fresh Theme ported from the monokaifresh TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-monokai_fresh/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "monokai_fresh",
-				"uiTheme": "vs-dark",
-				"path": "./themes/monokai_fresh.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-monokaifresh",
+    "displayName":  "monokai_fresh Theme",
+    "description":  "monokai_fresh Theme ported from the monokaifresh TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-monokai_fresh/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=monokai_fresh; uiTheme=vs-dark; path=./themes/monokai_fresh.tmTheme}"
+                                   ]
+                    }
 }

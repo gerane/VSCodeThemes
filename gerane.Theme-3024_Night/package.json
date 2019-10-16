@@ -1,28 +1,24 @@
 {
-	"name": "Theme-3024Night",
-	"displayName": "3024Night Theme",
-	"description": "3024Night Theme ported from the 3024Night TextMate Theme",
-	"version": "0.0.3",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-3024Night/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "3024Night",
-				"uiTheme": "vs-dark",
-				"path": "./themes/3024_Night.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-3024Night",
+    "displayName":  "3024Night Theme",
+    "description":  "3024Night Theme ported from the 3024Night TextMate Theme",
+    "version":  "0.0.4",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-3024Night/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=3024Night; uiTheme=vs-dark; path=./themes/3024_Night.tmTheme}"
+                                   ]
+                    }
 }

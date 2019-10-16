@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Capo-Light",
-	"displayName": "Capo-Light Theme",
-	"description": "Capo-Light Theme ported from the Capo-Light TextMate Theme",
-	"version": "0.0.3",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Capo-Light/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Capo-Light",
-				"uiTheme": "vs",
-				"path": "./themes/Capo-Light.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Capo-Light",
+    "displayName":  "Capo-Light Theme",
+    "description":  "Capo-Light Theme ported from the Capo-Light TextMate Theme",
+    "version":  "0.0.4",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Capo-Light/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Capo-Light; uiTheme=vs; path=./themes/Capo-Light.tmTheme}"
+                                   ]
+                    }
 }

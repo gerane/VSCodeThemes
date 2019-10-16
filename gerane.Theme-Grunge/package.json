@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Grunge",
-	"displayName": "Grunge Theme",
-	"description": "Grunge Theme ported from the Grunge TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Grunge/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Grunge",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Grunge.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Grunge",
+    "displayName":  "Grunge Theme",
+    "description":  "Grunge Theme ported from the Grunge TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Grunge/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Grunge; uiTheme=vs-dark; path=./themes/Grunge.tmTheme}"
+                                   ]
+                    }
 }

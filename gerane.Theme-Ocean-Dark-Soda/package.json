@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Ocean-Dark-Soda",
-	"displayName": "Ocean-Dark-Soda Theme",
-	"description": "Ocean-Dark-Soda Theme ported from the Ocean-Dark-Soda TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Ocean-Dark-Soda/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Ocean-Dark-Soda",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Ocean-Dark-Soda.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Ocean-Dark-Soda",
+    "displayName":  "Ocean-Dark-Soda Theme",
+    "description":  "Ocean-Dark-Soda Theme ported from the Ocean-Dark-Soda TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Ocean-Dark-Soda/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Ocean-Dark-Soda; uiTheme=vs-dark; path=./themes/Ocean-Dark-Soda.tmTheme}"
+                                   ]
+                    }
 }

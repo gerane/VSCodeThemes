@@ -1,28 +1,24 @@
 {
-	"name": "Theme-TwoStones",
-	"displayName": "TwoStones Theme",
-	"description": "TwoStones Theme ported from the TwoStones TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-TwoStones/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "TwoStones",
-				"uiTheme": "vs-dark",
-				"path": "./themes/TwoStones.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-TwoStones",
+    "displayName":  "TwoStones Theme",
+    "description":  "TwoStones Theme ported from the TwoStones TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-TwoStones/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=TwoStones; uiTheme=vs-dark; path=./themes/TwoStones.tmTheme}"
+                                   ]
+                    }
 }

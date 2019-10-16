@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Ascetic",
-	"displayName": "Ascetic Theme",
-	"description": "Ascetic Theme ported from the Ascetic TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Ascetic/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Ascetic",
-				"uiTheme": "vs",
-				"path": "./themes/Ascetic.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Ascetic",
+    "displayName":  "Ascetic Theme",
+    "description":  "Ascetic Theme ported from the Ascetic TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Ascetic/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Ascetic; uiTheme=vs; path=./themes/Ascetic.tmTheme}"
+                                   ]
+                    }
 }

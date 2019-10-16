@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Flat",
-	"displayName": "Flat Theme",
-	"description": "Flat Theme ported from the Flat TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Flat/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Flat",
-				"uiTheme": "vs",
-				"path": "./themes/Flat.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Flat",
+    "displayName":  "Flat Theme",
+    "description":  "Flat Theme ported from the Flat TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Flat/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Flat; uiTheme=vs; path=./themes/Flat.tmTheme}"
+                                   ]
+                    }
 }

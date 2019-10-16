@@ -1,28 +1,24 @@
 {
-	"name": "Theme-AllHallowsEve",
-	"displayName": "All_Hallows_Eve Theme",
-	"description": "All_Hallows_Eve Theme ported from the AllHallowsEve TextMate Theme",
-	"version": "0.0.4",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-All_Hallows_Eve/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "AllHallowsEve",
-				"uiTheme": "vs-dark",
-				"path": "./themes/All_Hallows_Eve.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-AllHallowsEve",
+    "displayName":  "All_Hallows_Eve Theme",
+    "description":  "All_Hallows_Eve Theme ported from the AllHallowsEve TextMate Theme",
+    "version":  "0.0.5",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-All_Hallows_Eve/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=AllHallowsEve; uiTheme=vs-dark; path=./themes/All_Hallows_Eve.tmTheme}"
+                                   ]
+                    }
 }

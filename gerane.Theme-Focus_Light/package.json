@@ -1,28 +1,24 @@
 {
-	"name": "Theme-FocusLight",
-	"displayName": "Focus_Light Theme",
-	"description": "Focus_Light Theme ported from the FocusLight TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Focus_Light/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Focus_Light",
-				"uiTheme": "vs",
-				"path": "./themes/Focus_Light.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-FocusLight",
+    "displayName":  "Focus_Light Theme",
+    "description":  "Focus_Light Theme ported from the FocusLight TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Focus_Light/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Focus_Light; uiTheme=vs; path=./themes/Focus_Light.tmTheme}"
+                                   ]
+                    }
 }

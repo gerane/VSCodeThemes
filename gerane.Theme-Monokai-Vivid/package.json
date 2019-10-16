@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Monokai-Vivid",
-	"displayName": "Monokai-Vivid Theme",
-	"description": "Monokai-Vivid Theme ported from the Monokai-Vivid TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Monokai-Vivid/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Monokai-Vivid",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Monokai-Vivid.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Monokai-Vivid",
+    "displayName":  "Monokai-Vivid Theme",
+    "description":  "Monokai-Vivid Theme ported from the Monokai-Vivid TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Monokai-Vivid/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Monokai-Vivid; uiTheme=vs-dark; path=./themes/Monokai-Vivid.tmTheme}"
+                                   ]
+                    }
 }

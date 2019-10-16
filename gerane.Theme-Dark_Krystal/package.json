@@ -1,28 +1,24 @@
 {
-	"name": "Theme-DarkKrystal",
-	"displayName": "Dark_Krystal Theme",
-	"description": "Dark_Krystal Theme ported from the DarkKrystal TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Dark_Krystal/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Dark_Krystal",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Dark_Krystal.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-DarkKrystal",
+    "displayName":  "Dark_Krystal Theme",
+    "description":  "Dark_Krystal Theme ported from the DarkKrystal TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Dark_Krystal/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Dark_Krystal; uiTheme=vs-dark; path=./themes/Dark_Krystal.tmTheme}"
+                                   ]
+                    }
 }

@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Rebecca-mint",
-	"displayName": "Rebecca-mint Theme",
-	"description": "Rebecca-mint Theme ported from the Rebecca-mint TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Rebecca-mint/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Rebecca-mint",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Rebecca-mint.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Rebecca-mint",
+    "displayName":  "Rebecca-mint Theme",
+    "description":  "Rebecca-mint Theme ported from the Rebecca-mint TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Rebecca-mint/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Rebecca-mint; uiTheme=vs-dark; path=./themes/Rebecca-mint.tmTheme}"
+                                   ]
+                    }
 }

@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Purrora",
-	"displayName": "Purrora Theme",
-	"description": "Purrora Theme ported from the Purrora TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Purrora/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Purrora",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Purrora.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Purrora",
+    "displayName":  "Purrora Theme",
+    "description":  "Purrora Theme ported from the Purrora TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Purrora/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Purrora; uiTheme=vs-dark; path=./themes/Purrora.tmTheme}"
+                                   ]
+                    }
 }

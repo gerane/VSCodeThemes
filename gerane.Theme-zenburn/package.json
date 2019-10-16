@@ -1,28 +1,24 @@
 {
-	"name": "Theme-zenburn",
-	"displayName": "zenburn Theme",
-	"description": "zenburn Theme ported from the zenburn TextMate Theme",
-	"version": "0.0.1",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.svg",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-zenburn/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "zenburn",
-				"uiTheme": "vs-dark",
-				"path": "./themes/zenburn.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-zenburn",
+    "displayName":  "zenburn Theme",
+    "description":  "zenburn Theme ported from the zenburn TextMate Theme",
+    "version":  "0.0.2",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.svg",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-zenburn/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=zenburn; uiTheme=vs-dark; path=./themes/zenburn.tmTheme}"
+                                   ]
+                    }
 }

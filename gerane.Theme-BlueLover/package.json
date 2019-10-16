@@ -1,28 +1,24 @@
 {
-	"name": "Theme-BlueLover",
-	"displayName": "BlueLover Theme",
-	"description": "BlueLover Theme ported from the BlueLover TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-BlueLover/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "BlueLover",
-				"uiTheme": "vs-dark",
-				"path": "./themes/BlueLover.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-BlueLover",
+    "displayName":  "BlueLover Theme",
+    "description":  "BlueLover Theme ported from the BlueLover TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-BlueLover/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=BlueLover; uiTheme=vs-dark; path=./themes/BlueLover.tmTheme}"
+                                   ]
+                    }
 }

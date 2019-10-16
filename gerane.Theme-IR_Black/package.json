@@ -1,28 +1,24 @@
 {
-	"name": "Theme-IRBlack",
-	"displayName": "IR_Black Theme",
-	"description": "IR_Black Theme ported from the IRBlack TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-IR_Black/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "IR_Black",
-				"uiTheme": "vs-dark",
-				"path": "./themes/IR_Black.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-IRBlack",
+    "displayName":  "IR_Black Theme",
+    "description":  "IR_Black Theme ported from the IRBlack TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-IR_Black/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=IR_Black; uiTheme=vs-dark; path=./themes/IR_Black.tmTheme}"
+                                   ]
+                    }
 }

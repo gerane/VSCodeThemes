@@ -1,28 +1,24 @@
 {
-	"name": "Theme-EggplantParm",
-	"displayName": "EggplantParm Theme",
-	"description": "EggplantParm Theme ported from the EggplantParm TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-EggplantParm/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "EggplantParm",
-				"uiTheme": "vs-dark",
-				"path": "./themes/EggplantParm.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-EggplantParm",
+    "displayName":  "EggplantParm Theme",
+    "description":  "EggplantParm Theme ported from the EggplantParm TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-EggplantParm/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=EggplantParm; uiTheme=vs-dark; path=./themes/EggplantParm.tmTheme}"
+                                   ]
+                    }
 }

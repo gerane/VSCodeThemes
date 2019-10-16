@@ -1,28 +1,24 @@
 {
-	"name": "Theme-VibrantInk",
-	"displayName": "Vibrant_Ink Theme",
-	"description": "Vibrant_Ink Theme ported from the VibrantInk TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Vibrant_Ink/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Vibrant_Ink",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Vibrant_Ink.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-VibrantInk",
+    "displayName":  "Vibrant_Ink Theme",
+    "description":  "Vibrant_Ink Theme ported from the VibrantInk TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Vibrant_Ink/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Vibrant_Ink; uiTheme=vs-dark; path=./themes/Vibrant_Ink.tmTheme}"
+                                   ]
+                    }
 }

@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Spearmint",
-	"displayName": "Spearmint Theme",
-	"description": "Spearmint Theme ported from the Spearmint TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Spearmint/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Spearmint",
-				"uiTheme": "vs",
-				"path": "./themes/Spearmint.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Spearmint",
+    "displayName":  "Spearmint Theme",
+    "description":  "Spearmint Theme ported from the Spearmint TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Spearmint/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Spearmint; uiTheme=vs; path=./themes/Spearmint.tmTheme}"
+                                   ]
+                    }
 }

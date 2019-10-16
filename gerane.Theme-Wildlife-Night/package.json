@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Wildlife-Night",
-	"displayName": "Wildlife-Night Theme",
-	"description": "Wildlife-Night Theme ported from the Wildlife-Night TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Wildlife-Night/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Wildlife-Night",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Wildlife-Night.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Wildlife-Night",
+    "displayName":  "Wildlife-Night Theme",
+    "description":  "Wildlife-Night Theme ported from the Wildlife-Night TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Wildlife-Night/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Wildlife-Night; uiTheme=vs-dark; path=./themes/Wildlife-Night.tmTheme}"
+                                   ]
+                    }
 }

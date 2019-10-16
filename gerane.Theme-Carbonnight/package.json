@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Carbonnight",
-	"displayName": "Carbonnight Theme",
-	"description": "Carbonnight Theme ported from the Carbonnight TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Carbonnight/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Carbonnight",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Carbonnight.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Carbonnight",
+    "displayName":  "Carbonnight Theme",
+    "description":  "Carbonnight Theme ported from the Carbonnight TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Carbonnight/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Carbonnight; uiTheme=vs-dark; path=./themes/Carbonnight.tmTheme}"
+                                   ]
+                    }
 }

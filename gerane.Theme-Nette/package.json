@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Nette",
-	"displayName": "Nette Theme",
-	"description": "Nette Theme ported from the Nette TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Nette/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Nette",
-				"uiTheme": "vs",
-				"path": "./themes/Nette.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Nette",
+    "displayName":  "Nette Theme",
+    "description":  "Nette Theme ported from the Nette TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Nette/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Nette; uiTheme=vs; path=./themes/Nette.tmTheme}"
+                                   ]
+                    }
 }

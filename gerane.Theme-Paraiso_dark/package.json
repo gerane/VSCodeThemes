@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Paraisodark",
-	"displayName": "Paraiso_dark Theme",
-	"description": "Paraiso_dark Theme ported from the Paraisodark TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Paraiso_dark/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Paraiso_dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Paraiso_dark.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Paraisodark",
+    "displayName":  "Paraiso_dark Theme",
+    "description":  "Paraiso_dark Theme ported from the Paraisodark TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Paraiso_dark/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Paraiso_dark; uiTheme=vs-dark; path=./themes/Paraiso_dark.tmTheme}"
+                                   ]
+                    }
 }

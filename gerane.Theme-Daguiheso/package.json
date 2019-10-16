@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Daguiheso",
-	"displayName": "Daguiheso Theme",
-	"description": "Daguiheso Theme ported from the Daguiheso TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Daguiheso/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Daguiheso",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Daguiheso.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Daguiheso",
+    "displayName":  "Daguiheso Theme",
+    "description":  "Daguiheso Theme ported from the Daguiheso TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Daguiheso/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Daguiheso; uiTheme=vs-dark; path=./themes/Daguiheso.tmTheme}"
+                                   ]
+                    }
 }

@@ -1,28 +1,24 @@
 {
-	"name": "Theme-LastRoomLight",
-	"displayName": "LastRoom_Light Theme",
-	"description": "LastRoom_Light Theme ported from the LastRoomLight TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-LastRoom_Light/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "LastRoom_Light",
-				"uiTheme": "vs",
-				"path": "./themes/LastRoom_Light.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-LastRoomLight",
+    "displayName":  "LastRoom_Light Theme",
+    "description":  "LastRoom_Light Theme ported from the LastRoomLight TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-LastRoom_Light/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=LastRoom_Light; uiTheme=vs; path=./themes/LastRoom_Light.tmTheme}"
+                                   ]
+                    }
 }

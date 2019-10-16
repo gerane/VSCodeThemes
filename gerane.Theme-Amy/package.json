@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Amy",
-	"displayName": "Amy Theme",
-	"description": "Amy Theme ported from the Amy TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Amy/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Amy",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Amy.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Amy",
+    "displayName":  "Amy Theme",
+    "description":  "Amy Theme ported from the Amy TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Amy/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Amy; uiTheme=vs-dark; path=./themes/Amy.tmTheme}"
+                                   ]
+                    }
 }

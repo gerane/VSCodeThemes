@@ -1,28 +1,24 @@
 {
-	"name": "Theme-Mellow",
-	"displayName": "Mellow Theme",
-	"description": "Mellow Theme ported from the Mellow TextMate Theme",
-	"version": "0.0.2",
-	"publisher": "gerane",
-	"engines": {
-		"vscode": "^0.10.1"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Mellow/README.md",
-	"repository": {
-        "type": "git",
-        "url": "https://github.com/gerane/VSCodeThemes.git"
-    },
-	"contributes": {
-		"themes": [
-			{
-				"label": "Mellow",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Mellow.tmTheme"
-			}
-		]
-	}
+    "name":  "Theme-Mellow",
+    "displayName":  "Mellow Theme",
+    "description":  "Mellow Theme ported from the Mellow TextMate Theme",
+    "version":  "0.0.3",
+    "publisher":  "gerane",
+    "engines":  {
+                    "vscode":  "^0.10.1"
+                },
+    "categories":  [
+                       "Themes"
+                   ],
+    "icon":  "icon.png",
+    "homepage":  "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-Mellow/README.md",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/gerane/VSCodeThemes.git"
+                   },
+    "contributes":  {
+                        "themes":  [
+                                       "@{label=Mellow; uiTheme=vs-dark; path=./themes/Mellow.tmTheme}"
+                                   ]
+                    }
 }
