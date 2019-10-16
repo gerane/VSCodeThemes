@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "wild-cherry",
-                                       "path":  "./themes/wild-cherry.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "wild-cherry",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/wild-cherry.tmTheme"
+                                       }
+                                   ]
                     }
 }

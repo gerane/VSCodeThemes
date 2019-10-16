@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Sweet_Dreams",
-                                       "path":  "./themes/Sweet_Dreams.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Sweet_Dreams",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Sweet_Dreams.tmTheme"
+                                       }
+                                   ]
                     }
 }

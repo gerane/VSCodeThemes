@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "krTheme",
-                                       "path":  "./themes/krTheme.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "krTheme",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/krTheme.tmTheme"
+                                       }
+                                   ]
                     }
 }

@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "GrandsonOfObsidian",
-                                       "path":  "./themes/GrandsonOfObsidian.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "GrandsonOfObsidian",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/GrandsonOfObsidian.tmTheme"
+                                       }
+                                   ]
                     }
 }

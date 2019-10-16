@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Capo-Light",
-                                       "path":  "./themes/Capo-Light.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Capo-Light",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/Capo-Light.tmTheme"
+                                       }
+                                   ]
                     }
 }

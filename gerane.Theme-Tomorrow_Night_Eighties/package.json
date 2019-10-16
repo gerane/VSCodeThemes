@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Tomorrow_Night_Eighties",
-                                       "path":  "./themes/Tomorrow_Night_Eighties.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Tomorrow_Night_Eighties",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Tomorrow_Night_Eighties.tmTheme"
+                                       }
+                                   ]
                     }
 }

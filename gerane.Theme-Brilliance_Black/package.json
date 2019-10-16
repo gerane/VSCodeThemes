@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Brilliance_Black",
-                                       "path":  "./themes/Brilliance_Black.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Brilliance_Black",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Brilliance_Black.tmTheme"
+                                       }
+                                   ]
                     }
 }

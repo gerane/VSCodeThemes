@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "NetBeans",
-                                       "path":  "./themes/NetBeans.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "NetBeans",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/NetBeans.tmTheme"
+                                       }
+                                   ]
                     }
 }

@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "earthsong-light",
-                                       "path":  "./themes/earthsong-light.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "earthsong-light",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/earthsong-light.tmTheme"
+                                       }
+                                   ]
                     }
 }

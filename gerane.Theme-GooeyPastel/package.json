@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "GooeyPastel",
-                                       "path":  "./themes/GooeyPastel.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "GooeyPastel",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/GooeyPastel.tmTheme"
+                                       }
+                                   ]
                     }
 }

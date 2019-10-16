@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Eiffel",
-                                       "path":  "./themes/Eiffel.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Eiffel",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/Eiffel.tmTheme"
+                                       }
+                                   ]
                     }
 }

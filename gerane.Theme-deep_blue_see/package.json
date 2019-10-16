@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "deep_blue_see",
-                                       "path":  "./themes/deep_blue_see.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "deep_blue_see",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/deep_blue_see.tmTheme"
+                                       }
+                                   ]
                     }
 }

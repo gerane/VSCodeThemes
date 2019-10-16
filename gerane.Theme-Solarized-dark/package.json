@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Solarized-dark",
-                                       "path":  "./themes/Solarized-dark.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Solarized-dark",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Solarized-dark.tmTheme"
+                                       }
+                                   ]
                     }
 }

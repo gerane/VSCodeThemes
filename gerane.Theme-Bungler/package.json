@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Bungler",
-                                       "path":  "./themes/Bungler.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Bungler",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Bungler.tmTheme"
+                                       }
+                                   ]
                     }
 }

@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Active4D",
-                                       "path":  "./themes/Active4D.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Active4D",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/Active4D.tmTheme"
+                                       }
+                                   ]
                     }
 }

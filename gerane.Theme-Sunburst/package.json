@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Sunburst",
-                                       "path":  "./themes/Sunburst.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Sunburst",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Sunburst.tmTheme"
+                                       }
+                                   ]
                     }
 }

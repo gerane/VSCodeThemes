@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Facebook",
-                                       "path":  "./themes/Facebook.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Facebook",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Facebook.tmTheme"
+                                       }
+                                   ]
                     }
 }

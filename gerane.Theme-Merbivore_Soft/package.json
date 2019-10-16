@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Merbivore_Soft",
-                                       "path":  "./themes/Merbivore_Soft.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Merbivore_Soft",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Merbivore_Soft.tmTheme"
+                                       }
+                                   ]
                     }
 }

@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "New-Day",
-                                       "path":  "./themes/New-Day.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "New-Day",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/New-Day.tmTheme"
+                                       }
+                                   ]
                     }
 }

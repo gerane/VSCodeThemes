@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "SpaceRave",
-                                       "path":  "./themes/SpaceRave.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "SpaceRave",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/SpaceRave.tmTheme"
+                                       }
+                                   ]
                     }
 }

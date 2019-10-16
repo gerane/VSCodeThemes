@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Xcode_default",
-                                       "path":  "./themes/Xcode_default.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Xcode_default",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/Xcode_default.tmTheme"
+                                       }
+                                   ]
                     }
 }

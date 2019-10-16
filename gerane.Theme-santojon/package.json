@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "santojon",
-                                       "path":  "./themes/santojon.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "santojon",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/santojon.tmTheme"
+                                       }
+                                   ]
                     }
 }

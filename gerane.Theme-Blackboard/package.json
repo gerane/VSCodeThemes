@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Blackboard",
-                                       "path":  "./themes/Blackboard.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Blackboard",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Blackboard.tmTheme"
+                                       }
+                                   ]
                     }
 }

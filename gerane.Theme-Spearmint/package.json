@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Spearmint",
-                                       "path":  "./themes/Spearmint.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Spearmint",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/Spearmint.tmTheme"
+                                       }
+                                   ]
                     }
 }

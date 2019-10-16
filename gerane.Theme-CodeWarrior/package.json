@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "CodeWarrior",
-                                       "path":  "./themes/CodeWarrior.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "CodeWarrior",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/CodeWarrior.tmTheme"
+                                       }
+                                   ]
                     }
 }

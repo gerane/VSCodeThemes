@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Chelevra",
-                                       "path":  "./themes/Chelevra.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Chelevra",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Chelevra.tmTheme"
+                                       }
+                                   ]
                     }
 }

@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Kimbie_light",
-                                       "path":  "./themes/Kimbie_light.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Kimbie_light",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/Kimbie_light.tmTheme"
+                                       }
+                                   ]
                     }
 }

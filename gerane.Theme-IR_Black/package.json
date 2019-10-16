@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "IR_Black",
-                                       "path":  "./themes/IR_Black.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "IR_Black",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/IR_Black.tmTheme"
+                                       }
+                                   ]
                     }
 }

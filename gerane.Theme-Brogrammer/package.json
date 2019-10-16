@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Brogrammer",
-                                       "path":  "./themes/Brogrammer.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Brogrammer",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Brogrammer.tmTheme"
+                                       }
+                                   ]
                     }
 }

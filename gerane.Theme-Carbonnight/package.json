@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Carbonnight",
-                                       "path":  "./themes/Carbonnight.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Carbonnight",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Carbonnight.tmTheme"
+                                       }
+                                   ]
                     }
 }

@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "peacocks-in-space",
-                                       "path":  "./themes/peacocks-in-space.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "peacocks-in-space",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/peacocks-in-space.tmTheme"
+                                       }
+                                   ]
                     }
 }

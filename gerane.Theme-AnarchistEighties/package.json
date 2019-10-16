@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "AnarchistEighties",
-                                       "path":  "./themes/AnarchistEighties.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "AnarchistEighties",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/AnarchistEighties.tmTheme"
+                                       }
+                                   ]
                     }
 }

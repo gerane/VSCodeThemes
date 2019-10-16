@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Monokai-Midnight",
-                                       "path":  "./themes/Monokai-Midnight.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Monokai-Midnight",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Monokai-Midnight.tmTheme"
+                                       }
+                                   ]
                     }
 }

@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Frozen",
-                                       "path":  "./themes/Frozen.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Frozen",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Frozen.tmTheme"
+                                       }
+                                   ]
                     }
 }

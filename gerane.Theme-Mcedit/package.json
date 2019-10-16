@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Mcedit",
-                                       "path":  "./themes/Mcedit.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Mcedit",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Mcedit.tmTheme"
+                                       }
+                                   ]
                     }
 }

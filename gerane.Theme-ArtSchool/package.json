@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "ArtSchool",
-                                       "path":  "./themes/ArtSchool.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "ArtSchool",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/ArtSchool.tmTheme"
+                                       }
+                                   ]
                     }
 }

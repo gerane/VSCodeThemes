@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "AllHallowsEve",
-                                       "path":  "./themes/All_Hallows_Eve.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "AllHallowsEve",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/All_Hallows_Eve.tmTheme"
+                                       }
+                                   ]
                     }
 }

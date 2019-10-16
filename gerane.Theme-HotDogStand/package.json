@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "HotDogStand",
-                                       "path":  "./themes/HotDogStand.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "HotDogStand",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/HotDogStand.tmTheme"
+                                       }
+                                   ]
                     }
 }

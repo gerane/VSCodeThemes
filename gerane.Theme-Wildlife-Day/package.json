@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Wildlife-Day",
-                                       "path":  "./themes/Wildlife-Day.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Wildlife-Day",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/Wildlife-Day.tmTheme"
+                                       }
+                                   ]
                     }
 }

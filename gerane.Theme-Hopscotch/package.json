@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Hopscotch",
-                                       "path":  "./themes/Hopscotch.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Hopscotch",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Hopscotch.tmTheme"
+                                       }
+                                   ]
                     }
 }

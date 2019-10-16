@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Jellybeams",
-                                       "path":  "./themes/Jellybeams.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Jellybeams",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Jellybeams.tmTheme"
+                                       }
+                                   ]
                     }
 }

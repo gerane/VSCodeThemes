@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "FreshCut",
-                                       "path":  "./themes/FreshCut.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "FreshCut",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/FreshCut.tmTheme"
+                                       }
+                                   ]
                     }
 }

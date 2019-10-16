@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "zacks",
-                                       "path":  "./themes/zacks.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "zacks",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/zacks.tmTheme"
+                                       }
+                                   ]
                     }
 }

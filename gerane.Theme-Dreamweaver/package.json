@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Dreamweaver",
-                                       "path":  "./themes/Dreamweaver.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Dreamweaver",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/Dreamweaver.tmTheme"
+                                       }
+                                   ]
                     }
 }

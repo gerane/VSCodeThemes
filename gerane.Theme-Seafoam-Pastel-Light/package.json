@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Seafoam-Pastel-Light",
-                                       "path":  "./themes/Seafoam-Pastel-Light.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Seafoam-Pastel-Light",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/Seafoam-Pastel-Light.tmTheme"
+                                       }
+                                   ]
                     }
 }

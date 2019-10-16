@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "dimmed-storm",
-                                       "path":  "./themes/dimmed-storm.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "dimmed-storm",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/dimmed-storm.tmTheme"
+                                       }
+                                   ]
                     }
 }

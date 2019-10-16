@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "bashling",
-                                       "path":  "./themes/bashling.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "bashling",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/bashling.tmTheme"
+                                       }
+                                   ]
                     }
 }

@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Peacock",
-                                       "path":  "./themes/Peacock.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Peacock",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Peacock.tmTheme"
+                                       }
+                                   ]
                     }
 }

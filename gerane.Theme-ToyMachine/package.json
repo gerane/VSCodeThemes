@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "ToyMachine",
-                                       "path":  "./themes/ToyMachine.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "ToyMachine",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/ToyMachine.tmTheme"
+                                       }
+                                   ]
                     }
 }

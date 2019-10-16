@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Nouba",
-                                       "path":  "./themes/Nouba.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Nouba",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Nouba.tmTheme"
+                                       }
+                                   ]
                     }
 }

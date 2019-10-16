@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "SalmonOnIce",
-                                       "path":  "./themes/SalmonOnIce.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "SalmonOnIce",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/SalmonOnIce.tmTheme"
+                                       }
+                                   ]
                     }
 }

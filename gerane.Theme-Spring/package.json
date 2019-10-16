@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Spring",
-                                       "path":  "./themes/Spring.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Spring",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/Spring.tmTheme"
+                                       }
+                                   ]
                     }
 }

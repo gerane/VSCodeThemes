@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Purrora",
-                                       "path":  "./themes/Purrora.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Purrora",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Purrora.tmTheme"
+                                       }
+                                   ]
                     }
 }

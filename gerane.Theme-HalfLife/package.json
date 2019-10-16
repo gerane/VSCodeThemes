@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "HalfLife",
-                                       "path":  "./themes/HalfLife.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "HalfLife",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/HalfLife.tmTheme"
+                                       }
+                                   ]
                     }
 }

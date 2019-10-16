@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Goldfish",
-                                       "path":  "./themes/Goldfish.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Goldfish",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Goldfish.tmTheme"
+                                       }
+                                   ]
                     }
 }

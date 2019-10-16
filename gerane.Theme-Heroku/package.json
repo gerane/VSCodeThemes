@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Heroku",
-                                       "path":  "./themes/Heroku.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Heroku",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Heroku.tmTheme"
+                                       }
+                                   ]
                     }
 }

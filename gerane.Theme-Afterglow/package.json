@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Afterglow",
-                                       "path":  "./themes/Afterglow.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Afterglow",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Afterglow.tmTheme"
+                                       }
+                                   ]
                     }
 }

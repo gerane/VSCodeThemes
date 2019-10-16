@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "dropin",
-                                       "path":  "./themes/dropin.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "dropin",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/dropin.tmTheme"
+                                       }
+                                   ]
                     }
 }

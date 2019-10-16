@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "QuietLight",
-                                       "path":  "./themes/QuietLight.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "QuietLight",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/QuietLight.tmTheme"
+                                       }
+                                   ]
                     }
 }

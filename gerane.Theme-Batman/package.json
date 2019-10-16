@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Batman",
-                                       "path":  "./themes/Batman.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Batman",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Batman.tmTheme"
+                                       }
+                                   ]
                     }
 }

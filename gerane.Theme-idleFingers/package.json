@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "idleFingers",
-                                       "path":  "./themes/idleFingers.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "idleFingers",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/idleFingers.tmTheme"
+                                       }
+                                   ]
                     }
 }

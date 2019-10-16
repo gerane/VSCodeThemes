@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Dark-Dracula",
-                                       "path":  "./themes/Dark-Dracula.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Dark-Dracula",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Dark-Dracula.tmTheme"
+                                       }
+                                   ]
                     }
 }

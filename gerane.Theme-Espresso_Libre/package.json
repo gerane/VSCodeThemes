@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Espresso_Libre",
-                                       "path":  "./themes/Espresso_Libre.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Espresso_Libre",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Espresso_Libre.tmTheme"
+                                       }
+                                   ]
                     }
 }

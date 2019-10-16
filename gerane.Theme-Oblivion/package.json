@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Oblivion",
-                                       "path":  "./themes/Oblivion.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Oblivion",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Oblivion.tmTheme"
+                                       }
+                                   ]
                     }
 }

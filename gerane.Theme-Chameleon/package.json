@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Chameleon",
-                                       "path":  "./themes/Chameleon.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Chameleon",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Chameleon.tmTheme"
+                                       }
+                                   ]
                     }
 }

@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Rebecca-sky",
-                                       "path":  "./themes/Rebecca-sky.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Rebecca-sky",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Rebecca-sky.tmTheme"
+                                       }
+                                   ]
                     }
 }

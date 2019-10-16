@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Slush_and_Poppies",
-                                       "path":  "./themes/Slush_and_Poppies.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Slush_and_Poppies",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/Slush_and_Poppies.tmTheme"
+                                       }
+                                   ]
                     }
 }

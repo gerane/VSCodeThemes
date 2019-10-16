@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Seahorse",
-                                       "path":  "./themes/Seahorse.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Seahorse",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Seahorse.tmTheme"
+                                       }
+                                   ]
                     }
 }

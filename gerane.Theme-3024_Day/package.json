@@ -21,10 +21,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "3024Day",
-                                       "path":  "./themes/3024_Day.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "3024Day",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/3024_Day.tmTheme"
+                                       }
+                                   ]
                     }
 }

@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Poyeyo",
-                                       "path":  "./themes/Poyeyo.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Poyeyo",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Poyeyo.tmTheme"
+                                       }
+                                   ]
                     }
 }

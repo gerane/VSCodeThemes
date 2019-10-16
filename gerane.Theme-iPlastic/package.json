@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "iPlastic",
-                                       "path":  "./themes/iPlastic.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "iPlastic",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/iPlastic.tmTheme"
+                                       }
+                                   ]
                     }
 }

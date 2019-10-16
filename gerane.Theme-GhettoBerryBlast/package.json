@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "GhettoBerryBlast",
-                                       "path":  "./themes/GhettoBerryBlast.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "GhettoBerryBlast",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/GhettoBerryBlast.tmTheme"
+                                       }
+                                   ]
                     }
 }

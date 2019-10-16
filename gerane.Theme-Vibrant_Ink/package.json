@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Vibrant_Ink",
-                                       "path":  "./themes/Vibrant_Ink.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Vibrant_Ink",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Vibrant_Ink.tmTheme"
+                                       }
+                                   ]
                     }
 }

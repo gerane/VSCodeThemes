@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Iceberg",
-                                       "path":  "./themes/Iceberg.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Iceberg",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Iceberg.tmTheme"
+                                       }
+                                   ]
                     }
 }

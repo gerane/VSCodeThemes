@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Ocean-Dark-Soda",
-                                       "path":  "./themes/Ocean-Dark-Soda.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Ocean-Dark-Soda",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Ocean-Dark-Soda.tmTheme"
+                                       }
+                                   ]
                     }
 }

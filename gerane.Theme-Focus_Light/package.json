@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Focus_Light",
-                                       "path":  "./themes/Focus_Light.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Focus_Light",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/Focus_Light.tmTheme"
+                                       }
+                                   ]
                     }
 }

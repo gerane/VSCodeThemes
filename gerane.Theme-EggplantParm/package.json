@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "EggplantParm",
-                                       "path":  "./themes/EggplantParm.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "EggplantParm",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/EggplantParm.tmTheme"
+                                       }
+                                   ]
                     }
 }

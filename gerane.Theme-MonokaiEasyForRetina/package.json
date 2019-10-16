@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "MonokaiEasyForRetina",
-                                       "path":  "./themes/MonokaiEasyForRetina.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "MonokaiEasyForRetina",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/MonokaiEasyForRetina.tmTheme"
+                                       }
+                                   ]
                     }
 }

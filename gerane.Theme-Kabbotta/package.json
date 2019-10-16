@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Kabbotta",
-                                       "path":  "./themes/Kabbotta.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Kabbotta",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Kabbotta.tmTheme"
+                                       }
+                                   ]
                     }
 }

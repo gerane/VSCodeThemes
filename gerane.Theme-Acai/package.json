@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Acai",
-                                       "path":  "./themes/Acai.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Acai",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Acai.tmTheme"
+                                       }
+                                   ]
                     }
 }

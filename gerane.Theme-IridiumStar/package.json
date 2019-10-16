@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "IridiumStar",
-                                       "path":  "./themes/IridiumStar.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "IridiumStar",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/IridiumStar.tmTheme"
+                                       }
+                                   ]
                     }
 }

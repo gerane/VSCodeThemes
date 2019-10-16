@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Frank_Sinatra",
-                                       "path":  "./themes/Frank_Sinatra.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Frank_Sinatra",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Frank_Sinatra.tmTheme"
+                                       }
+                                   ]
                     }
 }

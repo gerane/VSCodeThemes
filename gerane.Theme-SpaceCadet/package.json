@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "SpaceCadet",
-                                       "path":  "./themes/SpaceCadet.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "SpaceCadet",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/SpaceCadet.tmTheme"
+                                       }
+                                   ]
                     }
 }

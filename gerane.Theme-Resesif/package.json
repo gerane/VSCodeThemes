@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Resesif",
-                                       "path":  "./themes/Resesif.tmTheme",
-                                       "uiTheme":  "vs-dark"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Resesif",
+                                           "path":  "uiTheme=vs-dark",
+                                           "uiTheme":  "path=./themes/Resesif.tmTheme"
+                                       }
+                                   ]
                     }
 }

@@ -17,10 +17,12 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  {
-                                       "label":  "Gedit",
-                                       "path":  "./themes/Gedit.tmTheme",
-                                       "uiTheme":  "vs"
-                                   }
+                        "themes":  [
+                                       {
+                                           "label":  "Gedit",
+                                           "path":  "uiTheme=vs",
+                                           "uiTheme":  "path=./themes/Gedit.tmTheme"
+                                       }
+                                   ]
                     }
 }
