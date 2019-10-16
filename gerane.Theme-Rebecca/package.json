@@ -2,7 +2,7 @@
     "name":  "Theme-Rebecca",
     "displayName":  "Rebecca Theme",
     "description":  "Rebecca Theme ported from the Rebecca TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

@@ -2,7 +2,7 @@
     "name":  "Theme-BatmanLight",
     "displayName":  "BatmanLight Theme",
     "description":  "BatmanLight Theme ported from the BatmanLight TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

@@ -2,7 +2,7 @@
     "name":  "Theme-Active4D",
     "displayName":  "Active4D Theme",
     "description":  "Active4D Theme ported from the Active4D TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

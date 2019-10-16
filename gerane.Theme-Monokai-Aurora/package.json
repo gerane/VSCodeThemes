@@ -2,7 +2,7 @@
     "name":  "Theme-Monokai-Aurora",
     "displayName":  "Monokai-Aurora Theme",
     "description":  "Monokai-Aurora Theme ported from the Monokai-Aurora TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

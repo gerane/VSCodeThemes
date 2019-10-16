@@ -2,7 +2,7 @@
     "name":  "Theme-Pastel",
     "displayName":  "Pastel Theme",
     "description":  "Pastel Theme ported from the Pastel TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

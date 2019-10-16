@@ -2,6 +2,8 @@
 Thumbs.db
 ehthumbs.db
 
+*.vsix
+
 # Folder config file
 Desktop.ini
 

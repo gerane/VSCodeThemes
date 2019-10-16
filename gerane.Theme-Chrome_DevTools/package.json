@@ -2,7 +2,7 @@
     "name":  "Theme-ChromeDevTools",
     "displayName":  "Chrome_DevTools Theme",
     "description":  "Chrome_DevTools Theme ported from the ChromeDevTools TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

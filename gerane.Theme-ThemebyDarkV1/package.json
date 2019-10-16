@@ -2,7 +2,7 @@
     "name":  "Theme-ThemebyDarkV1",
     "displayName":  "ThemebyDarkV1 Theme",
     "description":  "ThemebyDarkV1 Theme ported from the ThemebyDarkV1 TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

@@ -2,7 +2,7 @@
     "name":  "Theme-CloudsMidnight",
     "displayName":  "Clouds_Midnight Theme",
     "description":  "Clouds_Midnight Theme ported from the CloudsMidnight TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

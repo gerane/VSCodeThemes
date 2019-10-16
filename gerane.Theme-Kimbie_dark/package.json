@@ -2,7 +2,7 @@
     "name":  "Theme-Kimbiedark",
     "displayName":  "Kimbie_dark Theme",
     "description":  "Kimbie_dark Theme ported from the Kimbiedark TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

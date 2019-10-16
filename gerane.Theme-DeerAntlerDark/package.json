@@ -2,7 +2,7 @@
     "name":  "Theme-DeerAntlerDark",
     "displayName":  "DeerAntlerDark Theme",
     "description":  "DeerAntlerDark Theme ported from the DeerAntlerDark TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

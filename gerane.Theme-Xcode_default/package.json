@@ -2,7 +2,7 @@
     "name":  "Theme-Xcodedefault",
     "displayName":  "Xcode_default Theme",
     "description":  "Xcode_default Theme ported from the Xcodedefault TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

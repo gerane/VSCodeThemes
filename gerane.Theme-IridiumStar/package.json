@@ -2,7 +2,7 @@
     "name":  "Theme-IridiumStar",
     "displayName":  "IridiumStar Theme",
     "description":  "IridiumStar Theme ported from the IridiumStar TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

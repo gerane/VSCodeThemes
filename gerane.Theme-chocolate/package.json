@@ -2,7 +2,7 @@
     "name":  "Theme-chocolate",
     "displayName":  "chocolate Theme",
     "description":  "chocolate Theme ported from the chocolate TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

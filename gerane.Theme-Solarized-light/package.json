@@ -2,7 +2,7 @@
     "name":  "Theme-Solarized-light",
     "displayName":  "Solarized-light Theme",
     "description":  "Solarized-light Theme ported from the Solarized-light TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

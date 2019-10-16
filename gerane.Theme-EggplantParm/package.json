@@ -2,7 +2,7 @@
     "name":  "Theme-EggplantParm",
     "displayName":  "EggplantParm Theme",
     "description":  "EggplantParm Theme ported from the EggplantParm TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

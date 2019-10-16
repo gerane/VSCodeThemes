@@ -2,7 +2,7 @@
     "name":  "Theme-FrankSinatra",
     "displayName":  "Frank_Sinatra Theme",
     "description":  "Frank_Sinatra Theme ported from the FrankSinatra TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

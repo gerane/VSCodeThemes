@@ -2,7 +2,7 @@
     "name":  "Theme-ILM",
     "displayName":  "ILM Theme",
     "description":  "ILM Theme ported from the ILM TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

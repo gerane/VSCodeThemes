@@ -2,7 +2,7 @@
     "name":  "Theme-FocusDark",
     "displayName":  "Focus_Dark Theme",
     "description":  "Focus_Dark Theme ported from the FocusDark TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

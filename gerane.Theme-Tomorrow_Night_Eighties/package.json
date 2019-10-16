@@ -2,7 +2,7 @@
     "name":  "Theme-TomorrowNightEighties",
     "displayName":  "Tomorrow_Night_Eighties Theme",
     "description":  "Tomorrow_Night_Eighties Theme ported from the TomorrowNightEighties TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

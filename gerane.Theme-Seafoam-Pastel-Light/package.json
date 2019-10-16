@@ -2,7 +2,7 @@
     "name":  "Theme-Seafoam-Pastel-Light",
     "displayName":  "Seafoam-Pastel-Light Theme",
     "description":  "Seafoam-Pastel-Light Theme ported from the Seafoam-Pastel-Light TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

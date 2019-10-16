@@ -2,7 +2,7 @@
     "name":  "Theme-Earthsong",
     "displayName":  "Earthsong Theme",
     "description":  "Earthsong Theme ported from the Earthsong TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

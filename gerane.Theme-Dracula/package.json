@@ -2,7 +2,7 @@
     "name":  "Theme-Dracula",
     "displayName":  "Dracula Theme",
     "description":  "Dracula Theme ported from the Dracula TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

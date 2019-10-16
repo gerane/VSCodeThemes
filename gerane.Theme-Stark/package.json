@@ -2,7 +2,7 @@
     "name":  "Theme-Stark",
     "displayName":  "Stark Theme",
     "description":  "Stark Theme ported from the Stark TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

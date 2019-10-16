@@ -2,7 +2,7 @@
     "name":  "Theme-Frontier",
     "displayName":  "Frontier Theme",
     "description":  "Frontier Theme ported from the Frontier TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

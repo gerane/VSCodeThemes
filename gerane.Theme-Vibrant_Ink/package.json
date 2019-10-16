@@ -2,7 +2,7 @@
     "name":  "Theme-VibrantInk",
     "displayName":  "Vibrant_Ink Theme",
     "description":  "Vibrant_Ink Theme ported from the VibrantInk TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

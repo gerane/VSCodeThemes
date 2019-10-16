@@ -2,7 +2,7 @@
     "name":  "Theme-SolarSooty",
     "displayName":  "SolarSooty Theme",
     "description":  "SolarSooty Theme ported from the SolarSooty TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

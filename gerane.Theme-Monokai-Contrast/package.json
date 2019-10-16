@@ -2,7 +2,7 @@
     "name":  "Theme-Monokai-Contrast",
     "displayName":  "Monokai-Contrast Theme",
     "description":  "Monokai-Contrast Theme ported from the Monokai-Contrast TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

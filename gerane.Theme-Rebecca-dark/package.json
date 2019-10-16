@@ -2,7 +2,7 @@
     "name":  "Theme-Rebecca-dark",
     "displayName":  "Rebecca-dark Theme",
     "description":  "Rebecca-dark Theme ported from the Rebecca-dark TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

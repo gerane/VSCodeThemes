@@ -2,7 +2,7 @@
     "name":  "Theme-FlatlandBlack",
     "displayName":  "Flatland_Black Theme",
     "description":  "Flatland_Black Theme ported from the FlatlandBlack TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

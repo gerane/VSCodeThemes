@@ -2,7 +2,7 @@
     "name":  "Theme-Capo-Light",
     "displayName":  "Capo-Light Theme",
     "description":  "Capo-Light Theme ported from the Capo-Light TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

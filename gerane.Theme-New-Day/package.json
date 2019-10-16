@@ -2,7 +2,7 @@
     "name":  "Theme-New-Day",
     "displayName":  "New-Day Theme",
     "description":  "New-Day Theme ported from the New-Day TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

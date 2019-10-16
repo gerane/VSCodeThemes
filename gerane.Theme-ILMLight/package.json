@@ -2,7 +2,7 @@
     "name":  "Theme-ILMLight",
     "displayName":  "ILMLight Theme",
     "description":  "ILMLight Theme ported from the ILMLight TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.5",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

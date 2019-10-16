@@ -2,7 +2,7 @@
     "name":  "Theme-IDLE",
     "displayName":  "IDLE Theme",
     "description":  "IDLE Theme ported from the IDLE TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

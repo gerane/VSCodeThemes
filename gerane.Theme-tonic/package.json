@@ -2,7 +2,7 @@
     "name":  "Theme-tonic",
     "displayName":  "tonic Theme",
     "description":  "tonic Theme ported from the tonic TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

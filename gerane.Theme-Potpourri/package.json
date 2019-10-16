@@ -2,7 +2,7 @@
     "name":  "Theme-Potpourri",
     "displayName":  "Potpourri Theme",
     "description":  "Potpourri Theme ported from the Potpourri TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

@@ -2,7 +2,7 @@
     "name":  "Theme-monokai-inverse",
     "displayName":  "monokai-inverse Theme",
     "description":  "monokai-inverse Theme ported from the monokai-inverse TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

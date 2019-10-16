@@ -2,7 +2,7 @@
     "name":  "Theme-Shadows",
     "displayName":  "Shadows Theme",
     "description":  "Shadows Theme ported from the Shadows TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

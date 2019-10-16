@@ -2,7 +2,7 @@
     "name":  "Theme-SpaceCadet",
     "displayName":  "SpaceCadet Theme",
     "description":  "SpaceCadet Theme ported from the SpaceCadet TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

@@ -2,7 +2,7 @@
     "name":  "Theme-GrandsonOfObsidian",
     "displayName":  "GrandsonOfObsidian Theme",
     "description":  "GrandsonOfObsidian Theme ported from the GrandsonOfObsidian TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

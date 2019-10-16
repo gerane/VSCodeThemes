@@ -2,7 +2,7 @@
     "name":  "Theme-bold",
     "displayName":  "bold Theme",
     "description":  "bold Theme ported from the bold TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

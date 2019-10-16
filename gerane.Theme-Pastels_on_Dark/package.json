@@ -2,7 +2,7 @@
     "name":  "Theme-PastelsonDark",
     "displayName":  "Pastels_on_Dark Theme",
     "description":  "Pastels_on_Dark Theme ported from the PastelsonDark TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

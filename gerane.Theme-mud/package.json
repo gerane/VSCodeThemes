@@ -2,7 +2,7 @@
     "name":  "Theme-mud",
     "displayName":  "mud Theme",
     "description":  "mud Theme ported from the mud TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

@@ -2,7 +2,7 @@
     "name":  "Theme-Daily-Grind",
     "displayName":  "Daily-Grind Theme",
     "description":  "Daily-Grind Theme ported from the Daily-Grind TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

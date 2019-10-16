@@ -2,7 +2,7 @@
     "name":  "Theme-TomorrowNightBright",
     "displayName":  "Tomorrow_Night_Bright Theme",
     "description":  "Tomorrow_Night_Bright Theme ported from the TomorrowNightBright TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

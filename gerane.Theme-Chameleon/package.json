@@ -2,7 +2,7 @@
     "name":  "Theme-Chameleon",
     "displayName":  "Chameleon Theme",
     "description":  "Chameleon Theme ported from the Chameleon TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

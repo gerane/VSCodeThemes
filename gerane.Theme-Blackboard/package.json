@@ -2,7 +2,7 @@
     "name":  "Theme-Blackboard",
     "displayName":  "Blackboard Theme",
     "description":  "Blackboard Theme ported from the Blackboard TextMate Theme",
-    "version":  "0.0.3",
+    "version":  "0.0.4",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"

@@ -2,7 +2,7 @@
     "name":  "Theme-3024Night",
     "displayName":  "3024Night Theme",
     "description":  "3024Night Theme ported from the 3024Night TextMate Theme",
-    "version":  "0.0.4",
+    "version":  "0.0.7",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"
