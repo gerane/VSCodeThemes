@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Dawn; uiTheme=vs; path=./themes/Dawn.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Dawn",
+                                       "path":  "./themes/Dawn.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

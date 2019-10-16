@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=ILMLight; uiTheme=vs; path=./themes/ILMLight.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "ILMLight",
+                                       "path":  "./themes/ILMLight.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=BirdsofParadise; uiTheme=vs-dark; path=./themes/Birds_of_Paradise.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "BirdsofParadise",
+                                       "path":  "./themes/Birds_of_Paradise.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

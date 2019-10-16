@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=WarpOS; uiTheme=vs-dark; path=./themes/WarpOS.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "WarpOS",
+                                       "path":  "./themes/WarpOS.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=BoxUK; uiTheme=vs; path=./themes/BoxUK.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "BoxUK",
+                                       "path":  "./themes/BoxUK.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

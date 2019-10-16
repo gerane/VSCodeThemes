@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=IDLE; uiTheme=vs; path=./themes/IDLE.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "IDLE",
+                                       "path":  "./themes/IDLE.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

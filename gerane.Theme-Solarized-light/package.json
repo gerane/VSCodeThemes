@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Solarized-light; uiTheme=vs; path=./themes/Solarized-light.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Solarized-light",
+                                       "path":  "./themes/Solarized-light.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

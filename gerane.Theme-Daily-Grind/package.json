@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Daily-Grind; uiTheme=vs-dark; path=./themes/Daily-Grind.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Daily-Grind",
+                                       "path":  "./themes/Daily-Grind.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

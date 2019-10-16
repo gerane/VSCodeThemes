@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Trixie; uiTheme=vs-dark; path=./themes/Trixie.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Trixie",
+                                       "path":  "./themes/Trixie.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

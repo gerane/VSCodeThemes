@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=snappy-light; uiTheme=vs; path=./themes/snappy-light.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "snappy-light",
+                                       "path":  "./themes/snappy-light.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

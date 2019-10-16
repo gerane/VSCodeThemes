@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Muukii; uiTheme=vs-dark; path=./themes/Muukii.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Muukii",
+                                       "path":  "./themes/Muukii.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

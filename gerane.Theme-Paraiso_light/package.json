@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Paraiso_light; uiTheme=vs; path=./themes/Paraiso_light.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Paraiso_light",
+                                       "path":  "./themes/Paraiso_light.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Boron; uiTheme=vs-dark; path=./themes/Boron.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Boron",
+                                       "path":  "./themes/Boron.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

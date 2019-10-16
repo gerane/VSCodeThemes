@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Ascetic; uiTheme=vs; path=./themes/Ascetic.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Ascetic",
+                                       "path":  "./themes/Ascetic.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

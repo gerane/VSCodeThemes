@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Bittersweet; uiTheme=vs-dark; path=./themes/Bittersweet.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Bittersweet",
+                                       "path":  "./themes/Bittersweet.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

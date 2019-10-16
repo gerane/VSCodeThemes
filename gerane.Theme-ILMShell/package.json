@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=ILMShell; uiTheme=vs-dark; path=./themes/ILMShell.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "ILMShell",
+                                       "path":  "./themes/ILMShell.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

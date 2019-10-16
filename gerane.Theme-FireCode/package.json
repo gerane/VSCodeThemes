@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=FireCode; uiTheme=vs-dark; path=./themes/FireCode.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "FireCode",
+                                       "path":  "./themes/FireCode.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

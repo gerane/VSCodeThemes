@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Hyrule; uiTheme=vs-dark; path=./themes/Hyrule.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Hyrule",
+                                       "path":  "./themes/Hyrule.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

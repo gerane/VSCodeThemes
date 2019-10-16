@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=CandyLand; uiTheme=vs-dark; path=./themes/CandyLand.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "CandyLand",
+                                       "path":  "./themes/CandyLand.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

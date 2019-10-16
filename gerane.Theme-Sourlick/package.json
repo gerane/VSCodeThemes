@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Sourlick; uiTheme=vs-dark; path=./themes/Sourlick.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Sourlick",
+                                       "path":  "./themes/Sourlick.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

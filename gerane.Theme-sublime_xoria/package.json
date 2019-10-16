@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=sublime_xoria; uiTheme=vs-dark; path=./themes/sublime_xoria.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "sublime_xoria",
+                                       "path":  "./themes/sublime_xoria.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=ThemebyDarkV2; uiTheme=vs-dark; path=./themes/ThemebyDarkV2.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "ThemebyDarkV2",
+                                       "path":  "./themes/ThemebyDarkV2.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

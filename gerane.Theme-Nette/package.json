@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Nette; uiTheme=vs; path=./themes/Nette.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Nette",
+                                       "path":  "./themes/Nette.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

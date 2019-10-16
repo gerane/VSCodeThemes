@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Daguiheso; uiTheme=vs-dark; path=./themes/Daguiheso.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Daguiheso",
+                                       "path":  "./themes/Daguiheso.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

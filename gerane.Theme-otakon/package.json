@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=otakon; uiTheme=vs-dark; path=./themes/otakon.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "otakon",
+                                       "path":  "./themes/otakon.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

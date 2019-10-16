@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Shadows; uiTheme=vs-dark; path=./themes/Shadows.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Shadows",
+                                       "path":  "./themes/Shadows.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

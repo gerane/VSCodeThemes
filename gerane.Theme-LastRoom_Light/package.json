@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=LastRoom_Light; uiTheme=vs; path=./themes/LastRoom_Light.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "LastRoom_Light",
+                                       "path":  "./themes/LastRoom_Light.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

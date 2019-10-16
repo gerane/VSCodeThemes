@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Tireless; uiTheme=vs-dark; path=./themes/Tireless.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Tireless",
+                                       "path":  "./themes/Tireless.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

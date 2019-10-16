@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Brunette; uiTheme=vs-dark; path=./themes/Brunette.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Brunette",
+                                       "path":  "./themes/Brunette.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

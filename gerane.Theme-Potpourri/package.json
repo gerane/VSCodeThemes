@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Potpourri; uiTheme=vs-dark; path=./themes/Potpourri.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Potpourri",
+                                       "path":  "./themes/Potpourri.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

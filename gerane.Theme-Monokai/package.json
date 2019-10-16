@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Monokai; uiTheme=vs-dark; path=./themes/Monokai.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Monokai",
+                                       "path":  "./themes/Monokai.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

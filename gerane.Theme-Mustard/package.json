@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Mustard; uiTheme=vs-dark; path=./themes/Mustard.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Mustard",
+                                       "path":  "./themes/Mustard.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

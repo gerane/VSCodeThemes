@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Chrome_DevTools; uiTheme=vs; path=./themes/Chrome_DevTools.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Chrome_DevTools",
+                                       "path":  "./themes/Chrome_DevTools.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

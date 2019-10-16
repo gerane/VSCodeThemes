@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=preap; uiTheme=vs-dark; path=./themes/preap.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "preap",
+                                       "path":  "./themes/preap.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

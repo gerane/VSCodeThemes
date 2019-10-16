@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=x3-alpha; uiTheme=vs-dark; path=./themes/x3-alpha.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "x3-alpha",
+                                       "path":  "./themes/x3-alpha.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

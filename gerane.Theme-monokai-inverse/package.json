@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=monokai-inverse; uiTheme=vs; path=./themes/monokai-inverse.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "monokai-inverse",
+                                       "path":  "./themes/monokai-inverse.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

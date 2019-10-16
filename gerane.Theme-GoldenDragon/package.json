@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=GoldenDragon; uiTheme=vs-dark; path=./themes/GoldenDragon.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "GoldenDragon",
+                                       "path":  "./themes/GoldenDragon.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

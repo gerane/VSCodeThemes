@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=shrek; uiTheme=vs-dark; path=./themes/shrek.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "shrek",
+                                       "path":  "./themes/shrek.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Wombat; uiTheme=vs-dark; path=./themes/Wombat.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Wombat",
+                                       "path":  "./themes/Wombat.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

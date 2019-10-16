@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Darkside_light_selection; uiTheme=vs-dark; path=./themes/Darkside_light_selection.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Darkside_light_selection",
+                                       "path":  "./themes/Darkside_light_selection.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

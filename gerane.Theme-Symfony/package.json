@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Symfony; uiTheme=vs; path=./themes/Symfony.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Symfony",
+                                       "path":  "./themes/Symfony.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

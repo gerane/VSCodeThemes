@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Solarflare; uiTheme=vs-dark; path=./themes/Solarflare.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Solarflare",
+                                       "path":  "./themes/Solarflare.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

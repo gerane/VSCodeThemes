@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Frontier; uiTheme=vs-dark; path=./themes/Frontier.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Frontier",
+                                       "path":  "./themes/Frontier.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

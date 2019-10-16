@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Clouds; uiTheme=vs; path=./themes/Clouds.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Clouds",
+                                       "path":  "./themes/Clouds.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

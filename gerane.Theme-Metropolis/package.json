@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Metropolis; uiTheme=vs-dark; path=./themes/Metropolis.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Metropolis",
+                                       "path":  "./themes/Metropolis.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Zeus-Sublime-Text; uiTheme=vs-dark; path=./themes/Zeus-Sublime-Text.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Zeus-Sublime-Text",
+                                       "path":  "./themes/Zeus-Sublime-Text.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

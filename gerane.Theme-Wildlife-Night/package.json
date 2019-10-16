@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Wildlife-Night; uiTheme=vs-dark; path=./themes/Wildlife-Night.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Wildlife-Night",
+                                       "path":  "./themes/Wildlife-Night.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

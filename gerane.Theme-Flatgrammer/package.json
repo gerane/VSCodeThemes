@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Flatgrammer; uiTheme=vs-dark; path=./themes/Flatgrammer.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Flatgrammer",
+                                       "path":  "./themes/Flatgrammer.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

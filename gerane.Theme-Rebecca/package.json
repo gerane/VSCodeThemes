@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Rebecca; uiTheme=vs; path=./themes/Rebecca.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Rebecca",
+                                       "path":  "./themes/Rebecca.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

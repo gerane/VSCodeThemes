@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Hammer; uiTheme=vs-dark; path=./themes/Hammer.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Hammer",
+                                       "path":  "./themes/Hammer.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

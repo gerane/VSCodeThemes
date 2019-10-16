@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=DeerAntlerDark; uiTheme=vs-dark; path=./themes/DeerAntlerDark.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "DeerAntlerDark",
+                                       "path":  "./themes/DeerAntlerDark.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

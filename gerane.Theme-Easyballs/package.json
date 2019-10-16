@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Easyballs; uiTheme=vs-dark; path=./themes/Easyballs.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Easyballs",
+                                       "path":  "./themes/Easyballs.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

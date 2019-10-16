@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Revelation; uiTheme=vs-dark; path=./themes/Revelation.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Revelation",
+                                       "path":  "./themes/Revelation.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

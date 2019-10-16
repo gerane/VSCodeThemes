@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=TricolorLight; uiTheme=vs; path=./themes/TricolorLight.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "TricolorLight",
+                                       "path":  "./themes/TricolorLight.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

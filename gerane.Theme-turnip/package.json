@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=turnip; uiTheme=vs-dark; path=./themes/turnip.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "turnip",
+                                       "path":  "./themes/turnip.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }

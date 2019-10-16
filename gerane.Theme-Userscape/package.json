@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=Userscape; uiTheme=vs; path=./themes/Userscape.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "Userscape",
+                                       "path":  "./themes/Userscape.tmTheme",
+                                       "uiTheme":  "vs"
+                                   }
                     }
 }

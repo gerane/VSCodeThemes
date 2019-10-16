@@ -17,8 +17,10 @@
                        "url":  "https://github.com/gerane/VSCodeThemes.git"
                    },
     "contributes":  {
-                        "themes":  [
-                                       "@{label=TronLight; uiTheme=vs-dark; path=./themes/TronLight.tmTheme}"
-                                   ]
+                        "themes":  {
+                                       "label":  "TronLight",
+                                       "path":  "./themes/TronLight.tmTheme",
+                                       "uiTheme":  "vs-dark"
+                                   }
                     }
 }
