@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=HalfLife; uiTheme=vs-dark; path=./themes/HalfLife.tmTheme}"
+                                       {
+                                           "label":  "HalfLife",
+                                           "path":  "./themes/HalfLife.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

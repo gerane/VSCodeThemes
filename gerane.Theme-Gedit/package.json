@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Gedit; uiTheme=vs; path=./themes/Gedit.tmTheme}"
+                                       {
+                                           "label":  "Gedit",
+                                           "path":  "./themes/Gedit.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

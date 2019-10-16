@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Trixie; uiTheme=vs-dark; path=./themes/Trixie.tmTheme}"
+                                       {
+                                           "label":  "Trixie",
+                                           "path":  "./themes/Trixie.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

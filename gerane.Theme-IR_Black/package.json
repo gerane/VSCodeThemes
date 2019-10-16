@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=IR_Black; uiTheme=vs-dark; path=./themes/IR_Black.tmTheme}"
+                                       {
+                                           "label":  "IR_Black",
+                                           "path":  "./themes/IR_Black.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

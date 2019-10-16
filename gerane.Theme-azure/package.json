@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=azure; uiTheme=vs-dark; path=./themes/azure.tmTheme}"
+                                       {
+                                           "label":  "azure",
+                                           "path":  "./themes/azure.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=ToyMachine; uiTheme=vs-dark; path=./themes/ToyMachine.tmTheme}"
+                                       {
+                                           "label":  "ToyMachine",
+                                           "path":  "./themes/ToyMachine.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

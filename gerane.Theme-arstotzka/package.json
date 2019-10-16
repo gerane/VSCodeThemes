@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=arstotzka; uiTheme=vs-dark; path=./themes/arstotzka.tmTheme}"
+                                       {
+                                           "label":  "arstotzka",
+                                           "path":  "./themes/arstotzka.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=IDLE; uiTheme=vs; path=./themes/IDLE.tmTheme}"
+                                       {
+                                           "label":  "IDLE",
+                                           "path":  "./themes/IDLE.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

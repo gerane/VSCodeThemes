@@ -22,7 +22,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=3024Day; uiTheme=vs; path=./themes/3024_Day.tmTheme}"
+                                       {
+                                           "label":  "3024Day",
+                                           "path":  "./themes/3024_Day.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

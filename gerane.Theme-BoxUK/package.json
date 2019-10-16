@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=BoxUK; uiTheme=vs; path=./themes/BoxUK.tmTheme}"
+                                       {
+                                           "label":  "BoxUK",
+                                           "path":  "./themes/BoxUK.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

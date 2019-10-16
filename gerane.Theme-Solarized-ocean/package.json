@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Solarized-ocean; uiTheme=vs-dark; path=./themes/Solarized-ocean.tmTheme}"
+                                       {
+                                           "label":  "Solarized-ocean",
+                                           "path":  "./themes/Solarized-ocean.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

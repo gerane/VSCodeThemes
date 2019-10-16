@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Druid; uiTheme=vs-dark; path=./themes/Druid.tmTheme}"
+                                       {
+                                           "label":  "Druid",
+                                           "path":  "./themes/Druid.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

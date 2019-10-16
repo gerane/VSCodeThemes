@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=wild-cherry; uiTheme=vs-dark; path=./themes/wild-cherry.tmTheme}"
+                                       {
+                                           "label":  "wild-cherry",
+                                           "path":  "./themes/wild-cherry.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

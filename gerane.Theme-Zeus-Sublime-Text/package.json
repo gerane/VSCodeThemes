@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Zeus-Sublime-Text; uiTheme=vs-dark; path=./themes/Zeus-Sublime-Text.tmTheme}"
+                                       {
+                                           "label":  "Zeus-Sublime-Text",
+                                           "path":  "./themes/Zeus-Sublime-Text.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

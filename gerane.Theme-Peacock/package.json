@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Peacock; uiTheme=vs-dark; path=./themes/Peacock.tmTheme}"
+                                       {
+                                           "label":  "Peacock",
+                                           "path":  "./themes/Peacock.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

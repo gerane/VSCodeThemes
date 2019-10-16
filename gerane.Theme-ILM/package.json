@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=ILM; uiTheme=vs; path=./themes/ILM.tmTheme}"
+                                       {
+                                           "label":  "ILM",
+                                           "path":  "./themes/ILM.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

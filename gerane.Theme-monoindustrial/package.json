@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=monoindustrial; uiTheme=vs-dark; path=./themes/monoindustrial.tmTheme}"
+                                       {
+                                           "label":  "monoindustrial",
+                                           "path":  "./themes/monoindustrial.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

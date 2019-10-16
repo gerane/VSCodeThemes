@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Dawn; uiTheme=vs; path=./themes/Dawn.tmTheme}"
+                                       {
+                                           "label":  "Dawn",
+                                           "path":  "./themes/Dawn.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

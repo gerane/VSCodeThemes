@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=GhettoBerryBlast; uiTheme=vs-dark; path=./themes/GhettoBerryBlast.tmTheme}"
+                                       {
+                                           "label":  "GhettoBerryBlast",
+                                           "path":  "./themes/GhettoBerryBlast.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

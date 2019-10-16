@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Nette; uiTheme=vs; path=./themes/Nette.tmTheme}"
+                                       {
+                                           "label":  "Nette",
+                                           "path":  "./themes/Nette.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

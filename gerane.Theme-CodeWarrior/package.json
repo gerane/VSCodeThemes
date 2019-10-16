@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=CodeWarrior; uiTheme=vs; path=./themes/CodeWarrior.tmTheme}"
+                                       {
+                                           "label":  "CodeWarrior",
+                                           "path":  "./themes/CodeWarrior.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

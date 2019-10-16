@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=IridiumStar; uiTheme=vs-dark; path=./themes/IridiumStar.tmTheme}"
+                                       {
+                                           "label":  "IridiumStar",
+                                           "path":  "./themes/IridiumStar.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

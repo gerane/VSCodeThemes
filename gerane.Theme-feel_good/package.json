@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=feel_good; uiTheme=vs-dark; path=./themes/feel_good.tmTheme}"
+                                       {
+                                           "label":  "feel_good",
+                                           "path":  "./themes/feel_good.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

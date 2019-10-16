@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=TronLight; uiTheme=vs-dark; path=./themes/TronLight.tmTheme}"
+                                       {
+                                           "label":  "TronLight",
+                                           "path":  "./themes/TronLight.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Facebook; uiTheme=vs-dark; path=./themes/Facebook.tmTheme}"
+                                       {
+                                           "label":  "Facebook",
+                                           "path":  "./themes/Facebook.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

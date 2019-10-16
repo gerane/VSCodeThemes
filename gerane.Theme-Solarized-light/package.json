@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Solarized-light; uiTheme=vs; path=./themes/Solarized-light.tmTheme}"
+                                       {
+                                           "label":  "Solarized-light",
+                                           "path":  "./themes/Solarized-light.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

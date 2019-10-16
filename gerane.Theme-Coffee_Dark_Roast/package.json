@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Coffee_Dark_Roast; uiTheme=vs-dark; path=./themes/Coffee_Dark_Roast.tmTheme}"
+                                       {
+                                           "label":  "Coffee_Dark_Roast",
+                                           "path":  "./themes/Coffee_Dark_Roast.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

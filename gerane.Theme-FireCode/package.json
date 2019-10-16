@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=FireCode; uiTheme=vs-dark; path=./themes/FireCode.tmTheme}"
+                                       {
+                                           "label":  "FireCode",
+                                           "path":  "./themes/FireCode.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=WarpOS; uiTheme=vs-dark; path=./themes/WarpOS.tmTheme}"
+                                       {
+                                           "label":  "WarpOS",
+                                           "path":  "./themes/WarpOS.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

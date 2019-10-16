@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Potpourri; uiTheme=vs-dark; path=./themes/Potpourri.tmTheme}"
+                                       {
+                                           "label":  "Potpourri",
+                                           "path":  "./themes/Potpourri.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

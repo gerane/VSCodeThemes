@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=CandyLand; uiTheme=vs-dark; path=./themes/CandyLand.tmTheme}"
+                                       {
+                                           "label":  "CandyLand",
+                                           "path":  "./themes/CandyLand.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

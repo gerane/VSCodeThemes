@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=MonokaiEasyForRetina; uiTheme=vs-dark; path=./themes/MonokaiEasyForRetina.tmTheme}"
+                                       {
+                                           "label":  "MonokaiEasyForRetina",
+                                           "path":  "./themes/MonokaiEasyForRetina.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

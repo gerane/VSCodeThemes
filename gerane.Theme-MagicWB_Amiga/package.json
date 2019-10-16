@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=MagicWB_Amiga; uiTheme=vs; path=./themes/MagicWB_Amiga.tmTheme}"
+                                       {
+                                           "label":  "MagicWB_Amiga",
+                                           "path":  "./themes/MagicWB_Amiga.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Boron; uiTheme=vs-dark; path=./themes/Boron.tmTheme}"
+                                       {
+                                           "label":  "Boron",
+                                           "path":  "./themes/Boron.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

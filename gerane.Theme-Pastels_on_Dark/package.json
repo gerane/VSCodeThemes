@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Pastels_on_Dark; uiTheme=vs-dark; path=./themes/Pastels_on_Dark.tmTheme}"
+                                       {
+                                           "label":  "Pastels_on_Dark",
+                                           "path":  "./themes/Pastels_on_Dark.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Merbivore; uiTheme=vs-dark; path=./themes/Merbivore.tmTheme}"
+                                       {
+                                           "label":  "Merbivore",
+                                           "path":  "./themes/Merbivore.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

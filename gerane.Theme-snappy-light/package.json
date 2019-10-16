@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=snappy-light; uiTheme=vs; path=./themes/snappy-light.tmTheme}"
+                                       {
+                                           "label":  "snappy-light",
+                                           "path":  "./themes/snappy-light.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

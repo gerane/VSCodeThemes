@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Monokai-Soft-MD; uiTheme=vs-dark; path=./themes/Monokai-Soft-MD.tmTheme}"
+                                       {
+                                           "label":  "Monokai-Soft-MD",
+                                           "path":  "./themes/Monokai-Soft-MD.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

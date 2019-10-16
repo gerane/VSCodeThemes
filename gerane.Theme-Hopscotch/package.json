@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Hopscotch; uiTheme=vs-dark; path=./themes/Hopscotch.tmTheme}"
+                                       {
+                                           "label":  "Hopscotch",
+                                           "path":  "./themes/Hopscotch.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

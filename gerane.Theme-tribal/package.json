@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=tribal; uiTheme=vs-dark; path=./themes/tribal.tmTheme}"
+                                       {
+                                           "label":  "tribal",
+                                           "path":  "./themes/tribal.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

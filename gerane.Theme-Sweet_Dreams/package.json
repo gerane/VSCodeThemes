@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Sweet_Dreams; uiTheme=vs-dark; path=./themes/Sweet_Dreams.tmTheme}"
+                                       {
+                                           "label":  "Sweet_Dreams",
+                                           "path":  "./themes/Sweet_Dreams.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

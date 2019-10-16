@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Capo-Light; uiTheme=vs; path=./themes/Capo-Light.tmTheme}"
+                                       {
+                                           "label":  "Capo-Light",
+                                           "path":  "./themes/Capo-Light.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

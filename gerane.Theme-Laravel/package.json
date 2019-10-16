@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Laravel; uiTheme=vs-dark; path=./themes/Laravel.tmTheme}"
+                                       {
+                                           "label":  "Laravel",
+                                           "path":  "./themes/Laravel.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

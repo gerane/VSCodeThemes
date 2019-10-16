@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Harper; uiTheme=vs-dark; path=./themes/Harper.tmTheme}"
+                                       {
+                                           "label":  "Harper",
+                                           "path":  "./themes/Harper.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

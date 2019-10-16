@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Flatgrammer; uiTheme=vs-dark; path=./themes/Flatgrammer.tmTheme}"
+                                       {
+                                           "label":  "Flatgrammer",
+                                           "path":  "./themes/Flatgrammer.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

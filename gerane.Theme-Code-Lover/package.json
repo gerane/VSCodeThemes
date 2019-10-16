@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Code-Lover; uiTheme=vs-dark; path=./themes/Code-Lover.tmTheme}"
+                                       {
+                                           "label":  "Code-Lover",
+                                           "path":  "./themes/Code-Lover.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

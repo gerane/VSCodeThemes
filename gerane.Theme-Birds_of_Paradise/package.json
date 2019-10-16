@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=BirdsofParadise; uiTheme=vs-dark; path=./themes/Birds_of_Paradise.tmTheme}"
+                                       {
+                                           "label":  "BirdsofParadise",
+                                           "path":  "./themes/Birds_of_Paradise.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

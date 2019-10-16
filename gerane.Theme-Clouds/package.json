@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Clouds; uiTheme=vs; path=./themes/Clouds.tmTheme}"
+                                       {
+                                           "label":  "Clouds",
+                                           "path":  "./themes/Clouds.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

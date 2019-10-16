@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Neon; uiTheme=vs-dark; path=./themes/Neon.tmTheme}"
+                                       {
+                                           "label":  "Neon",
+                                           "path":  "./themes/Neon.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

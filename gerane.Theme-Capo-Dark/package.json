@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Capo-Dark; uiTheme=vs-dark; path=./themes/Capo-Dark.tmTheme}"
+                                       {
+                                           "label":  "Capo-Dark",
+                                           "path":  "./themes/Capo-Dark.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=x3-alpha; uiTheme=vs-dark; path=./themes/x3-alpha.tmTheme}"
+                                       {
+                                           "label":  "x3-alpha",
+                                           "path":  "./themes/x3-alpha.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

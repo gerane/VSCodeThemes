@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=monokai-inverse; uiTheme=vs; path=./themes/monokai-inverse.tmTheme}"
+                                       {
+                                           "label":  "monokai-inverse",
+                                           "path":  "./themes/monokai-inverse.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

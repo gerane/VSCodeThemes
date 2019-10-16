@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=monokai-best; uiTheme=vs-dark; path=./themes/monokai-best.tmTheme}"
+                                       {
+                                           "label":  "monokai-best",
+                                           "path":  "./themes/monokai-best.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

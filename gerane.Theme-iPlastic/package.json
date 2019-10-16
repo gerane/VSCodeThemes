@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=iPlastic; uiTheme=vs; path=./themes/iPlastic.tmTheme}"
+                                       {
+                                           "label":  "iPlastic",
+                                           "path":  "./themes/iPlastic.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

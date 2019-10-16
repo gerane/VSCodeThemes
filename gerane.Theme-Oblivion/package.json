@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Oblivion; uiTheme=vs-dark; path=./themes/Oblivion.tmTheme}"
+                                       {
+                                           "label":  "Oblivion",
+                                           "path":  "./themes/Oblivion.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

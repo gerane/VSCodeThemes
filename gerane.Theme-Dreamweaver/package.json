@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Dreamweaver; uiTheme=vs; path=./themes/Dreamweaver.tmTheme}"
+                                       {
+                                           "label":  "Dreamweaver",
+                                           "path":  "./themes/Dreamweaver.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

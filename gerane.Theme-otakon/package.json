@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=otakon; uiTheme=vs-dark; path=./themes/otakon.tmTheme}"
+                                       {
+                                           "label":  "otakon",
+                                           "path":  "./themes/otakon.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

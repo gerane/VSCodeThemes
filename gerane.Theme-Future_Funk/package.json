@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Future_Funk; uiTheme=vs-dark; path=./themes/Future_Funk.tmTheme}"
+                                       {
+                                           "label":  "Future_Funk",
+                                           "path":  "./themes/Future_Funk.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

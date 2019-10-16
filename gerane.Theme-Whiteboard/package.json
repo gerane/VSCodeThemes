@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Whiteboard; uiTheme=vs; path=./themes/Whiteboard.tmTheme}"
+                                       {
+                                           "label":  "Whiteboard",
+                                           "path":  "./themes/Whiteboard.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

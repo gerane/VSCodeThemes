@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Eiffel; uiTheme=vs; path=./themes/Eiffel.tmTheme}"
+                                       {
+                                           "label":  "Eiffel",
+                                           "path":  "./themes/Eiffel.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=textmate; uiTheme=vs; path=./themes/textmate.tmTheme}"
+                                       {
+                                           "label":  "textmate",
+                                           "path":  "./themes/textmate.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

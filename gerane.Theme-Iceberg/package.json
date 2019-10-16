@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Iceberg; uiTheme=vs-dark; path=./themes/Iceberg.tmTheme}"
+                                       {
+                                           "label":  "Iceberg",
+                                           "path":  "./themes/Iceberg.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

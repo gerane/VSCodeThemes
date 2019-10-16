@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=turnip; uiTheme=vs-dark; path=./themes/turnip.tmTheme}"
+                                       {
+                                           "label":  "turnip",
+                                           "path":  "./themes/turnip.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

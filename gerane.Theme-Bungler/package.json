@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Bungler; uiTheme=vs-dark; path=./themes/Bungler.tmTheme}"
+                                       {
+                                           "label":  "Bungler",
+                                           "path":  "./themes/Bungler.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

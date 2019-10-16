@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Easyballs; uiTheme=vs-dark; path=./themes/Easyballs.tmTheme}"
+                                       {
+                                           "label":  "Easyballs",
+                                           "path":  "./themes/Easyballs.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

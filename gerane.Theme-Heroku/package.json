@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Heroku; uiTheme=vs-dark; path=./themes/Heroku.tmTheme}"
+                                       {
+                                           "label":  "Heroku",
+                                           "path":  "./themes/Heroku.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

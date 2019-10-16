@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Abyss; uiTheme=vs-dark; path=./themes/Abyss.tmTheme}"
+                                       {
+                                           "label":  "Abyss",
+                                           "path":  "./themes/Abyss.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

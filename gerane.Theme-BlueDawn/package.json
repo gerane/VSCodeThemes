@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=BlueDawn; uiTheme=vs-dark; path=./themes/BlueDawn.tmTheme}"
+                                       {
+                                           "label":  "BlueDawn",
+                                           "path":  "./themes/BlueDawn.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Glowfish; uiTheme=vs-dark; path=./themes/Glowfish.tmTheme}"
+                                       {
+                                           "label":  "Glowfish",
+                                           "path":  "./themes/Glowfish.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

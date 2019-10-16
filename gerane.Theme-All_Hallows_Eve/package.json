@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=AllHallowsEve; uiTheme=vs-dark; path=./themes/All_Hallows_Eve.tmTheme}"
+                                       {
+                                           "label":  "AllHallowsEve",
+                                           "path":  "./themes/All_Hallows_Eve.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

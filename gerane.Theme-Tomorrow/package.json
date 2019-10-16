@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Tomorrow; uiTheme=vs; path=./themes/Tomorrow.tmTheme}"
+                                       {
+                                           "label":  "Tomorrow",
+                                           "path":  "./themes/Tomorrow.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

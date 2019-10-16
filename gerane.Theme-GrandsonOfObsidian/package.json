@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=GrandsonOfObsidian; uiTheme=vs-dark; path=./themes/GrandsonOfObsidian.tmTheme}"
+                                       {
+                                           "label":  "GrandsonOfObsidian",
+                                           "path":  "./themes/GrandsonOfObsidian.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

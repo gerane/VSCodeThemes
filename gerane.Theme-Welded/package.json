@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Welded; uiTheme=vs; path=./themes/Welded.tmTheme}"
+                                       {
+                                           "label":  "Welded",
+                                           "path":  "./themes/Welded.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

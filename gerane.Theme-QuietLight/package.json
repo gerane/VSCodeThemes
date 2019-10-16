@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=QuietLight; uiTheme=vs; path=./themes/QuietLight.tmTheme}"
+                                       {
+                                           "label":  "QuietLight",
+                                           "path":  "./themes/QuietLight.tmTheme",
+                                           "uiTheme":  "vs"
+                                       }
                                    ]
                     }
 }

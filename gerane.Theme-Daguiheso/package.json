@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Daguiheso; uiTheme=vs-dark; path=./themes/Daguiheso.tmTheme}"
+                                       {
+                                           "label":  "Daguiheso",
+                                           "path":  "./themes/Daguiheso.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

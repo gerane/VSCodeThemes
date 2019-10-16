@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Seafoam-Pastel-Dark; uiTheme=vs-dark; path=./themes/Seafoam-Pastel-Dark.tmTheme}"
+                                       {
+                                           "label":  "Seafoam-Pastel-Dark",
+                                           "path":  "./themes/Seafoam-Pastel-Dark.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

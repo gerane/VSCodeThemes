@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Mcedit; uiTheme=vs-dark; path=./themes/Mcedit.tmTheme}"
+                                       {
+                                           "label":  "Mcedit",
+                                           "path":  "./themes/Mcedit.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

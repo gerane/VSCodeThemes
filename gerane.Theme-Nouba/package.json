@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Nouba; uiTheme=vs-dark; path=./themes/Nouba.tmTheme}"
+                                       {
+                                           "label":  "Nouba",
+                                           "path":  "./themes/Nouba.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }

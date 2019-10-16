@@ -18,7 +18,11 @@
                    },
     "contributes":  {
                         "themes":  [
-                                       "@{label=Seahorse; uiTheme=vs-dark; path=./themes/Seahorse.tmTheme}"
+                                       {
+                                           "label":  "Seahorse",
+                                           "path":  "./themes/Seahorse.tmTheme",
+                                           "uiTheme":  "vs-dark"
+                                       }
                                    ]
                     }
 }
