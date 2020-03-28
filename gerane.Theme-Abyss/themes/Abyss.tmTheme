@@ -266,7 +266,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F8F8F0</string>
+				<string>#F44747</string>
 			</dict>
 		</dict>
 		<dict>
@@ -279,7 +279,7 @@
 				<key>background</key>
 				<string>#AE81FF</string>
 				<key>foreground</key>
-				<string>#F8F8F0</string>
+				<string>#F44747</string>
 			</dict>
 		</dict>
 	</array>
