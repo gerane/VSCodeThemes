@@ -1,4 +1,0 @@
-def abc:
-    pass
-
-abc()
