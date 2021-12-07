@@ -2,7 +2,7 @@
     "name":  "Theme-BirdsofParadise",
     "displayName":  "Birds_of_Paradise Theme",
     "description":  "Birds_of_Paradise Theme ported from the BirdsofParadise TextMate Theme",
-    "version":  "0.0.5",
+    "version":  "0.0.6",
     "publisher":  "gerane",
     "engines":  {
                     "vscode":  "^0.10.1"
@@ -20,7 +20,7 @@
                         "themes":  [
                                        {
                                            "label":  "BirdsofParadise",
-                                           "path":  "./themes/Birds_of_Paradise.tmTheme",
+                                           "path":  "./themes/Birds_of_Paradise-color-theme.json",
                                            "uiTheme":  "vs-dark"
                                        }
                                    ]

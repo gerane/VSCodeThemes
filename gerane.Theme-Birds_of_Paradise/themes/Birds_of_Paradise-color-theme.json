@@ -1,0 +1,378 @@
+{
+		"$schema": "vscode://schemas/color-theme",
+		"name": "Birds of Paradise",
+		"type": "dark",
+		"semanticHighlighting": true,
+		"colors": {
+			// Activity Bar
+			"activityBar.background": "#372725",
+			
+			// Button
+			"button.foreground": "#E6E1C4",
+			"button.background": "#5B413D",
+
+			// Editor
+			"editor.background": "#372725",
+			"editorCursor.foreground": "#DDDDDD",
+			"editor.foreground": "#E6E1C4",
+			"editorWhitespace.foreground": "#5B413D",
+			"editor.lineHighlightBackground": "#281C1C66",
+			"editor.selectionBackground": "#A40042",
+	
+			// Sidebar
+			"sideBar.background": "#372725",
+			"sideBar.foreground": "#E6E1C4",
+	
+			// Terminal
+			// Thanks to iterm colors https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/BirdsOfParadise.itermcolors
+			// https://iterm2colorschemes.com
+			"terminal.ansiBlack": "#6a4d32",
+			"terminal.ansiBlue": "#6b98bb",
+			"terminal.ansiCyan": "#85b4bb",
+			"terminal.ansiGreen": "#85b4bb",
+			"terminal.ansiMagenta": "#bb94b4",
+			"terminal.ansiRed": "#cb4131",
+			"terminal.ansiWhite": "#e6e1c3",
+			"terminal.ansiYellow": "#eeac36",
+			
+			"terminal.ansiBrightBlack": "#ac7f5c",
+			"terminal.ansiBrightBlue": "#c4dbf0",
+			"terminal.ansiBrightCyan": "#a2d7de",
+			"terminal.ansiBrightGreen": "#a3ddc6",
+			"terminal.ansiBrightMagenta": "#dab0d4",
+			"terminal.ansiBrightRed": "#ee5d32",
+			"terminal.ansiBrightWhite": "#feffff",
+			"terminal.ansiBrightYellow": "#d8d762",
+			
+			// Titlebar
+			"titleBar.activeBackground": "#5B413D",
+	
+			// Window
+			"window.activeBorder": "#372725",
+
+			},
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#372725",
+				"foreground": "#E6E1C4"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#6B4E32"
+			}
+		},
+		{
+			"name": "Python Docstring",
+			"scope": "string.quoted.double.block.python",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#6B4E32"
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": "constant",
+			"settings": {
+				"foreground": "#6C99BB"
+			}
+		},
+		{
+			"name": "[Meta] - The main color for Meta",
+			"scope": "meta",
+			"settings": {
+				"foreground": "#6C99BB"
+			}
+		},
+		{
+			"name": "Entity",
+			"scope": "entity",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#EFAC32"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#EF5D32"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#EF5D32"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#D9D762"
+			}
+		},
+		{
+			"name": "Support",
+			"scope": "support",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#E6E1C4"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#7DAF9C"
+			}
+		},
+		{
+			"name": "Invalid – Deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+				"fontStyle": "italic underline",
+				"foreground": "#CC4232"
+			}
+		},
+		{
+			"name": "Invalid – Illegal",
+			"scope": "invalid.illegal",
+			"settings": {
+				"background": "#CC4232",
+				"foreground": "#E6E1C4"
+			}
+		},
+		{
+			"name": "-----------------------------------",
+			"settings": {}
+		},
+		{
+			"name": "♦ String constant",
+			"scope": "string constant",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#6C99BB"
+			}
+		},
+		{
+			"name": "♦ String.regexp",
+			"scope": "string.regexp",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#8856D2"
+			}
+		},
+		{
+			"name": "♦ String.regexp.«special»",
+			"scope": [
+				"string.regexp constant.character.escape",
+				"string.regexp source.ruby.embedded",
+				"string.regexp string.regexp.arbitrary-repitition"
+			],
+			"settings": {
+				"foreground": "#BE73FD"
+			}
+		},
+		{
+			"name": "♦ String variable",
+			"scope": "string variable",
+			"settings": {
+				"foreground": "#8A9A95"
+			}
+		},
+		{
+			"name": "♦ Support.function",
+			"scope": "support.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#EFAC32"
+			}
+		},
+		{
+			"name": "♦ Support.constant",
+			"scope": "support.constant",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#6C99BB"
+			}
+		},
+		{
+			"name": "c C/C++ Preprocessor Line",
+			"scope": "meta.preprocessor.c",
+			"settings": {
+				"foreground": "#8996A8"
+			}
+		},
+		{
+			"name": "c C/C++ Preprocessor Directive",
+			"scope": "meta.preprocessor.c keyword",
+			"settings": {
+				"foreground": "#AFC4DB"
+			}
+		},
+		{
+			"name": "✘ Doctype/XML Processing",
+			"scope": [
+				"meta.tag.sgml.doctype",
+				"meta.tag.sgml.doctype entity",
+				"meta.tag.sgml.doctype string",
+				"meta.tag.preprocessor.xml",
+				"meta.tag.preprocessor.xml entity",
+				"meta.tag.preprocessor.xml string"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#86B4BB"
+			}
+		},
+		{
+			"name": "✘ Meta.tag.«all»",
+			"scope": [
+				"declaration.tag",
+				"declaration.tag entity",
+				"meta.tag",
+				"meta.tag entity"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#86B4BB"
+			}
+		},
+		{
+			"name": "⎇ diff.header",
+			"scope": [
+				"meta.diff",
+				"meta.diff.header",
+				"meta.separator"
+			],
+			"settings": {
+				"background": "#0E2231",
+				"fontStyle": "italic",
+				"foreground": "#F8F8F8"
+			}
+		},
+		{
+			"name": "⎇ diff.deleted",
+			"scope": "markup.deleted",
+			"settings": {
+				"background": "#420E09",
+				"foreground": "#F8F8F8"
+			}
+		},
+		{
+			"name": "⎇ diff.changed",
+			"scope": "markup.changed",
+			"settings": {
+				"background": "#4A410D",
+				"foreground": "#F8F8F8"
+			}
+		},
+		{
+			"name": "⎇ diff.inserted",
+			"scope": "markup.inserted",
+			"settings": {
+				"background": "#253B22",
+				"foreground": "#F8F8F8"
+			}
+		},
+		{
+			"name": "SASS @import",
+			"scope": "keyword.control.at-rule.sass",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#EF5D32"
+			}
+		},
+		{
+			"name": "SASS $variable",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#7DAF9C"
+			}
+		},
+		{
+			"name": "SASS Attributes",
+			"scope": [
+				"keyword.control.untitled",
+				"entity.other.attribute-name.class.sass",
+				"entity.other.attribute-name.id.sass",
+				"entity.other.attribute-name.tag.pseudo-class"
+			],
+			"settings": {
+				"foreground": "#EFAC32"
+			}
+		},
+		{
+			"name": "SASS Properties",
+			"scope": "support.type.property-name.sass",
+			"settings": {
+				"foreground": "#E6E1C4"
+			}
+		},
+		{
+			"name": "SASS Values",
+			"scope": "support.constant.property-value.sass",
+			"settings": {
+				"foreground": "#C699BB"
+			}
+		},
+		{
+			"name": "CSS Attributes",
+			"scope": [
+				"meta.selector.css entity.name.tag",
+				"meta.selector.css entity.other.attribute-name.class",
+				"meta.selector.css entity.other.attribute-name.id"
+			],
+			"settings": {
+				"foreground": "#EFAC32"
+			}
+		},
+		{
+			"name": "CSS Values",
+			"scope": [
+				"meta.property-group support.constant.property-value.css",
+				"meta.property-value support.constant.property-value.css"
+			],
+			"settings": {
+				"foreground": "#C699BB"
+			}
+		},
+		{
+			"name": "CSS Constants",
+			"scope": [
+				"meta.property-value support.constant.named-color.css",
+				"meta.property-value constant"
+			],
+			"settings": {
+				"foreground": "#6C99BB"
+			}
+		},
+		{
+			"name": "[Python] - Color for Self Argument",
+			"scope": "variable.parameter.function.language.special.self.python",
+			"settings": {
+				"foreground": "#6C99BB"
+			}
+		},
+		{
+			"name": "[Python] - functions",
+			"scope": [
+				"meta.function-call.python",
+				"meta.function-call.generic.python",
+				"support.function.builtin.python"
+			],
+			"settings": {
+				"foreground": "#EFAC32"
+			}
+		}
+	],
+}
